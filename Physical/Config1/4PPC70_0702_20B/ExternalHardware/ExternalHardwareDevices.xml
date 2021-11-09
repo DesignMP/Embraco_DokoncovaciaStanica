@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExternalHardware>
+  <Modules>
+    <Module ModuleID="FBE.DokoncovaciaStanica_VT1" Version="11.13.09" OrderNumber="VT1">
+      <SourceFile OriginalFile="DokoncovaciaStanica_VT1.xdd" TranslationFile="WV1766BR.ext" />
+    </Module>
+  </Modules>
+</ExternalHardware>

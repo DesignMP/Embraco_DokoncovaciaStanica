@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.3.8.58 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Program" Language="IEC">Main</Object>
+    <Object Type="Program" Language="IEC">Oddelovac</Object>
+    <Object Type="Program" Language="IEC">ZdvihRotora</Object>
+    <Object Type="Program" Language="IEC">VstupnyManipulator</Object>
+    <Object Type="Program" Language="IEC">OtocnyStol</Object>
+    <Object Type="Program" Language="IEC">StanicaStrihania</Object>
+    <Object Type="Program" Language="IEC">StanicaRazenia</Object>
+    <Object Type="Program" Language="IEC">StanicaVnutornehoValcovania</Object>
+    <Object Type="Program" Language="IEC">StanicaVonkajsiehoValcovania</Object>
+    <Object Type="Program" Language="IEC">StanicaMerania</Object>
+    <Object Type="Program" Language="IEC">VystupnyManipulator</Object>
+    <Object Type="Program" Language="IEC">VystupnyOdsuvac</Object>
+    <Object Type="Program" Language="IEC">Poruchy_Signalizacie</Object>
+    <Object Type="Program" Language="IEC">RychleDeje</Object>
+  </Objects>
+</Package>

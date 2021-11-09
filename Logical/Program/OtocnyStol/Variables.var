@@ -1,0 +1,9 @@
+VAR
+	SC_OvlStola : SequenceControlTyp;
+	Otacaj_VPRED : BOOL;
+	Otacaj_VZAD : BOOL;
+	PocetOtoceniStola : USINT;
+	CasTaktTime1 : TON;
+	CasTaktTime2 : TON;
+	CisloChyby : USINT;
+END_VAR

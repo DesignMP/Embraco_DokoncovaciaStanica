@@ -1,0 +1,23 @@
+VAR
+	SC_OvlZdvihuRotora : SequenceControlTyp;
+	ZdvihRotora_JoggHORE : BOOL;
+	ZdvihRotora_JoggDOLE : BOOL;
+	ZdvihRotora_VALCOVANIE : BOOL;
+	ZdvihRotora_HOME : BOOL;
+	ZdvihRotora_PoziciaSTART : BOOL;
+	ZdvihRotora_PoziciaVALCOVANIA : BOOL;
+	SC_OvlOtacaniaNastroja : SequenceControlTyp;
+	OtacanieNastroja_VPRED : BOOL;
+	OtacanieNastroja_VZAD : BOOL;
+	SC_OvlHornehoPritlaku : SequenceControlTyp;
+	HornyPritlak_HORE : BOOL;
+	HornyPritlak_DOLE : BOOL;
+	CasDavkyOleja : TON;
+	RR_ZdvihRotora_PozVychodzia : BOOL;
+	RR_ZdvihRotora_PozValcovania : BOOL;
+	PocetCyklovValcovania : USINT;
+	Priznak_ValcovanieNG : BOOL;
+	Priznak_ValcovanieOK : BOOL;
+	TaktTime : TON;
+	NameranyTaktime : TIME;
+END_VAR

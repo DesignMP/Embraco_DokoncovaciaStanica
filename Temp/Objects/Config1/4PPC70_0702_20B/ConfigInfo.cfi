@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.10.3.60 SP"?>
+<ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
+  <TaskClass
+    Name="Cyclic#1">
+    <Task
+      Name="RychleDeje"
+      Disable="false"
+      Source="Program.RychleDeje"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\RychleDeje\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\RychleDeje\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\RychleDeje\Variables.var" />
+    </Task>
+    <Task
+      Name="VstupnyMan"
+      Disable="false"
+      Source="Program.VstupnyManipulator"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\VstupnyMan\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\VstupnyManipulator\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\VstupnyManipulator\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\VstupnyMan\OvladanieGripra.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\VstupnyMan\OvladanieZdvihu.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\VstupnyMan\OvladaniePojazdu.st.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#2">
+    <Task
+      Name="RiadenieSe"
+      Disable="false"
+      Source="RiadenieServ.RiadenieServ"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\RiadenieSe\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\RiadenieServ\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\RiadenieServ\Variables.var" />
+    </Task>
+    <Task
+      Name="Serva_Prir"
+      Disable="false"
+      Source="RiadenieServ.Serva_PriradenieVstupov"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\Serva_Prir\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\Serva_PriradenieVstupov\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\Serva_PriradenieVstupov\Variables.var" />
+    </Task>
+    <Task
+      Name="StanicaVa1"
+      Disable="false"
+      Source="Program.StanicaVonkajsiehoValcovania"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\StanicaVa1\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaVonkajsiehoValcovania\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaVonkajsiehoValcovania\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\StanicaVa1\OvlZdvihuRotora.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\StanicaVa1\OvlOtacaniaNastroja.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\StanicaVa1\OvlHornehoPritlaku.st.var" />
+    </Task>
+    <Task
+      Name="StanicaStr"
+      Disable="false"
+      Source="Program.StanicaStrihania"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\StanicaStr\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaStrihania\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaStrihania\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\StanicaStr\OvladanieZdvihu.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\StanicaStr\OvladanieGripraNaliatku.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\StanicaStr\OvladanieGripraStriznika.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\StanicaStr\OvladanieOdkloneniaGriprov.st.var" />
+    </Task>
+    <Task
+      Name="StanicaVal"
+      Disable="false"
+      Source="Program.StanicaVnutornehoValcovania"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\StanicaVal\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaVnutornehoValcovania\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaVnutornehoValcovania\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\StanicaVal\OvladanieZdvihuServa.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\StanicaVal\OvladanieGripra.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\StanicaVal\OvladanieZdvihuRotora.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\StanicaVal\OvladanieOtacaniaRotora.st.var" />
+    </Task>
+    <Task
+      Name="StanicaMer"
+      Disable="false"
+      Source="Program.StanicaMerania"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\StanicaMer\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaMerania\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaMerania\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\StanicaMer\OvladanieZdvihu.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\StanicaMer\OvladanieOtacaniaRotora.st.var" />
+    </Task>
+    <Task
+      Name="RiadenieMe"
+      Disable="false"
+      Source="RiadenieMenicov.RiadenieMenicov"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\RiadenieMe\InverterBasic.st.var" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieMenicov\RiadenieMenicov\InverterBasic.var" />
+    </Task>
+    <Task
+      Name="Blikanie10"
+      Disable="false"
+      Source="Blikace.Blikanie10ms"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\Blikanie10\Blikanie10ms.st.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#3">
+    <Task
+      Name="Blikanie1"
+      Disable="false"
+      Source="Blikace.Blikanie50ms"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\Blikanie1\Blikanie50ms.st.var" />
+    </Task>
+    <Task
+      Name="OtocnyStol"
+      Disable="false"
+      Source="Program.OtocnyStol"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\OtocnyStol\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\OtocnyStol\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\OtocnyStol\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\OtocnyStol\OvladanieOtacania.st.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#4">
+    <Task
+      Name="Blikanie20"
+      Disable="false"
+      Source="Blikace.Blikanie200ms"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\Blikanie20\Blikanie200ms.st.var" />
+    </Task>
+    <Task
+      Name="ZdvihRotor"
+      Disable="false"
+      Source="Program.ZdvihRotora"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\ZdvihRotor\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\ZdvihRotora\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\ZdvihRotora\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\ZdvihRotor\OvladanieZdvihu.st.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#5">
+    <Task
+      Name="Blikanie50"
+      Disable="false"
+      Source="Blikace.Blikanie500ms"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\Blikanie50\Blikanie500ms.st.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#6">
+    <Task
+      Name="Blikanie1s"
+      Disable="false"
+      Source="Blikace.Blikanie1s"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\Blikanie1s\Blikanie1s.st.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#7">
+    <Task
+      Name="Blikanie5s"
+      Disable="false"
+      Source="Blikace.Blikanie5s"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\Blikanie5s\Blikanie5s.st.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#8">
+    <Task
+      Name="VystupnyOd"
+      Disable="false"
+      Source="Program.VystupnyOdsuvac"
+      Language="IEC">
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\VystupnyOdsuvac\Types.typ" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\VystupnyOd\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\VystupnyOdsuvac\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\VystupnyOd\OvladanieOdsuvania.st.var" />
+    </Task>
+    <Task
+      Name="StanicaRaz"
+      Disable="false"
+      Source="Program.StanicaRazenia"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\StanicaRaz\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaRazenia\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaRazenia\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\StanicaRaz\OvladanieZdvihu.st.var" />
+    </Task>
+    <Task
+      Name="VystupnyMa"
+      Disable="false"
+      Source="Program.VystupnyManipulator"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\VystupnyMa\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\VystupnyManipulator\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\VystupnyManipulator\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\VystupnyMa\OvladanieGripra.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\VystupnyMa\OvladanieZdvihu.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\VystupnyMa\OvladaniePojazdu.st.var" />
+    </Task>
+    <Task
+      Name="Oddelovac"
+      Disable="false"
+      Source="Program.Oddelovac"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\Oddelovac\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\Oddelovac\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\Oddelovac\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\Oddelovac\OvladanieOddelovaca.st.var" />
+    </Task>
+    <Task
+      Name="Main"
+      Disable="false"
+      Source="Program.Main"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\Main\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\Main\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\Main\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\Main\ZobrazenieTlacitok.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\Main\OvladanieSafety.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\Main\OvladanieHydrauliky.st.var" />
+    </Task>
+    <Task
+      Name="Komunikaci"
+      Disable="false"
+      Source="Komunikacia.KOM_HlavnaLinka"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\Komunikaci\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Komunikacia\KOM_HlavnaLinka\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Komunikacia\KOM_HlavnaLinka\Variables.var" />
+    </Task>
+    <Task
+      Name="Poruchy_Si"
+      Disable="false"
+      Source="Program.Poruchy_Signalizacie"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Objects\Config1\4PPC70_0702_20B\Poruchy_Si\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\Poruchy_Signalizacie\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\Poruchy_Signalizacie\Variables.var" />
+    </Task>
+  </TaskClass>
+</ConfigInfo>

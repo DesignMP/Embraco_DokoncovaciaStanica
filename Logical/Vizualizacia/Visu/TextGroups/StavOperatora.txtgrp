@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.3.8.58 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="StavOperatora">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="3"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="217865" Value="Operator odhlásený"/>
+    <Text ID="217866" Value="Operátor prihlásený"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="217865" Value=""/>
+    <Text ID="217866" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="217865" Value="0"/>
+    <Index ID="217866" Value="1"/>
+  </IndexMap>
+</TextGroup>

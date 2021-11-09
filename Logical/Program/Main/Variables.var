@@ -1,0 +1,7 @@
+VAR
+	CasZaplneniaDopravnikaNG : TON;
+	CasZaplneniaDopravnikaOK : TON;
+	CasPredResetomOplotenia : TON;
+	CasNizkaHladinaOleja : TON;
+	CasZapnutiaHydrauliky : TON;
+END_VAR

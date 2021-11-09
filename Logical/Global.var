@@ -1,0 +1,479 @@
+(*************Premenne receptur**************)
+VAR
+	SC_Uzivatelia : SequenceControlTyp;
+	MpRecipeRegPar_0 : MpRecipeRegPar := (0);
+	MpRecipeXml_0 : MpRecipeXml := (0);
+	Receptura : ARRAY[0..20] OF ParametreRecepturTyp := [21((0))];
+	UlozRecepturu : BOOL := FALSE;
+	NacitajRecepturu : BOOL;
+	Nazov : STRING[30] := '';
+	Premenna_1 : REAL;
+	Premenna_2 : REAL;
+	Premenna_3 : USINT;
+	Premenna_4 : USINT;
+	Premenna_5 : USINT;
+	Premenna_6 : USINT;
+	ZvolenyNazovProduktu : STRING[30];
+	ZvolenaPremenna_1 : REAL;
+	ZvolenaPremenna_2 : REAL;
+	ZvolenaPremenna_3 : USINT;
+	ZvolenaPremenna_4 : USINT;
+	ZvolenaPremenna_5 : USINT;
+	ZvolenaPremenna_6 : USINT;
+END_VAR
+(**********Premenne uzivatelov********************************)
+VAR
+	MpRecipeXml_1 : MpRecipeXml := (0);
+	MpRecipeRegPar_1 : MpRecipeRegPar := (0);
+	Uzivatel : ARRAY[0..20] OF ParametreUzivatelovTyp;
+	ZoznamUzivatelov : ARRAY[0..20] OF STRING[50] := [21('')];
+	MenoUzivatela : STRING[50];
+	HesloUzivatela : STRING[50];
+	UrovenUzivatela : UINT;
+	ZadaneMenoUzivatela : STRING[50];
+	ZadaneHesloUzivatela : STRING[50];
+	ZvolenyUzivatel : STRING[50];
+	ZvolenaUroven : UINT;
+	TP_ZobrazPopUpPrihlasenie : USINT;
+	UlozUzivatelov : BOOL;
+	PrihlasUzivatela : BOOL;
+	VymazUzivatela : BOOL;
+	OdhlasUzivatela : BOOL;
+END_VAR
+(**********BlikaËe*******************************)
+VAR
+	Blikac200ms : BOOL;
+	Blikac500ms : BOOL;
+	Blikac1s : BOOL;
+	Blikac5s : BOOL;
+	Blikac50ms : BOOL;
+	Blikac10ms : BOOL;
+END_VAR
+(*********RiadenieServ*************************)
+VAR
+	gAxis01 : ACP10AXIS_typ;
+	gAxis02 : ACP10AXIS_typ;
+	gAxis03 : ACP10AXIS_typ;
+	gAxis04 : ACP10AXIS_typ;
+	Motion : ARRAY[1..4] OF Axis;
+	idx : USINT := 0;
+END_VAR
+VAR CONSTANT
+	MAX_MOTION : USINT := 4;
+END_VAR
+VAR
+	Servo1_PriradenieSnimacov : MC_BR_SetHardwareInputs;
+	Servo2_PriradenieSnimacov : MC_BR_SetHardwareInputs;
+	Servo3_PriradenieSnimacov : MC_BR_SetHardwareInputs;
+	Servo4_PriradenieSnimacov : MC_BR_SetHardwareInputs;
+END_VAR
+(************Riadenie FM meniËov*********************)
+VAR
+	ErrorInfo : ARRAY[1..2] OF Error_Info_typ;
+END_VAR
+VAR CONSTANT
+	NR_OF_INVERTERS : USINT := 3;
+END_VAR
+VAR
+	FM_Menic : ARRAY[1..NR_OF_INVERTERS] OF Inverter_typ;
+END_VAR
+(*************Safety premennÈ*****************************)
+VAR
+	RezimServis : BOOL;
+	SafetyPLC_Nabehlo : BOOL;
+	BezpOkruhCS_Aktivovany : BOOL;
+	BezpOkruhOplotenia_Aktivovany : BOOL;
+	Reset_CS : BOOL;
+	Reset_Oplotenia : BOOL;
+	Stav_CS_Odblokovane : BOOL;
+	Stav_BZ1_Zamknuty : BOOL;
+	Stav_BZ2_Zamknuty : BOOL;
+	Stav_BZ3_Zamknuty : BOOL;
+	Stav_BZ4_Zamknuty : BOOL;
+	Stav_BZ5_Zamknuty : BOOL;
+	Stav_BZ6_Zamknuty : BOOL;
+	Zamkni_BZ1 : BOOL;
+	Zamkni_BZ2 : BOOL;
+	Zamkni_BZ3 : BOOL;
+	Zamkni_BZ4 : BOOL;
+	Zamkni_BZ5 : BOOL;
+	Zamkni_BZ6 : BOOL;
+	StavZamkuBZ1 : USINT;
+	StavZamkuBZ2 : USINT;
+	StavZamkuBZ3 : USINT;
+	StavZamkuBZ4 : USINT;
+	StavZamkuBZ5 : USINT;
+	StavZamkuBZ6 : USINT;
+END_VAR
+(*********Meranie prestojov********************)
+VAR
+	StratovyCas_START : BOOL;
+	StratovyCas_Milisekundy : UINT;
+	StratovyCas_Sekundy : UINT;
+	StratovyCas_Minuty : UINT;
+	StratovyCas_Hodiny : UINT;
+	StratovyCas_RESET : BOOL;
+END_VAR
+(*****************Alarmy*************************)
+VAR
+	Alarmy : ARRAY[0..100] OF BOOL;
+	NastalaPorucha : BOOL;
+	ZobrazSymbolAlarmu : BOOL;
+	PotvrdenieAlarmov : BOOL;
+	PoruchaOddelovaca : BOOL;
+	PoruchaZdvihuRotora : BOOL;
+	PoruchaVstupManipulator : BOOL;
+	PoruchaOtocnyStol : BOOL;
+	PoruchaStanicaStrihania : BOOL;
+	PoruchaStanicaRazenia : BOOL;
+	PoruchaStanicaValcovania : BOOL;
+	PoruchaStanicaValcovania2 : BOOL;
+	PoruchaStanicaMerania : BOOL;
+	PoruchaVystupManipulator : BOOL;
+	PoruchaVystupOdsuvac : BOOL;
+	VypnutieHukacky : BOOL;
+END_VAR
+(************VöeobecnÈ premennÈ************)
+VAR
+	Modul_DB1_OK : BOOL;
+	Modul_DB2_OK : BOOL;
+	Modul_DB3_OK : BOOL;
+	Modul_DB4_OK : BOOL;
+	Modul_DB5_OK : BOOL;
+	Modul_DB6_OK : BOOL;
+	Zariadenie_Moduly_OK : BOOL;
+	Zariadenie_TaktTime : REAL;
+	Zariadenie_Automat : BOOL;
+	Zariadenie_Manual : BOOL;
+	Zariadenie_Reset : BOOL;
+	Zariadenie_PoINIT : BOOL;
+	Zariadenie_HOME : BOOL;
+	Zariadenie_KoniecVyroby : BOOL;
+	Zariadenie_KoniecCyklu : BOOL;
+	Zariadenie_RevorkRezim : BOOL;
+	Zariadenie_StavAutomat : BOOL;
+	Zariadenie_StavManual : BOOL;
+	Zariadenie_StavPoINIT : BOOL;
+	Zariadenie_HomingOK : BOOL;
+	Zariadenie_PrebiehaHoming : BOOL;
+	Zariadenie_PrebiehaUkoncenie : BOOL;
+	Zariadenie_PrebiehaKoniecCyklu : BOOL;
+	Zariadenie_PrebiehaRevorkRezim : BOOL;
+	Zariadenie_PAUZA : BOOL;
+	VnutorneValcovanie_AKTIVNE : BOOL;
+	VonkajsieValcovanie_AKTIVNE : BOOL;
+	CasVypnutiaHydrauliky : TON;
+	Stav_ServaREADY : BOOL;
+	SC_Oddelovac : SequenceControlTyp;
+	Oddelovac_Automat : BOOL;
+	Oddelovac_Manual : BOOL;
+	Oddelovac_Reset : BOOL;
+	Oddelovac_PoINIT : BOOL;
+	Oddelovac_KoniecVyroby : BOOL;
+	Oddelovac_KoniecCyklu : BOOL;
+	SC_ZdvihRotora : SequenceControlTyp;
+	ZdvihRotora_Automat : BOOL;
+	ZdvihRotora_Manual : BOOL;
+	ZdvihRotora_Reset : BOOL;
+	ZdvihRotora_PoINIT : BOOL;
+	ZdvihRotora_KoniecVyroby : BOOL;
+	ZdvihRotora_KoniecCyklu : BOOL;
+	SC_VstupnyManipulator : SequenceControlTyp;
+	VstupManipulator_Automat : BOOL;
+	VstupManipulator_Manual : BOOL;
+	VstupManipulator_Reset : BOOL;
+	VstupManipulator_PoINIT : BOOL;
+	VstupManipulator_KoniecVyroby : BOOL;
+	VstupManipulator_KoniecCyklu : BOOL;
+	VstupManipulator_RychlJoggingu : REAL;
+	VstupManipulator_RychlostPolohov : REAL;
+	VstupManipul_Rychlost_MM_s : REAL;
+END_VAR
+VAR RETAIN
+	VstupManipul_RychlostJog_MM_s : REAL;
+END_VAR
+VAR
+	VstupManipulator_HomingOK : BOOL;
+	VstupManipulator_AktualPozMM : REAL;
+	VstupManipulator_ZadanaPozMM : REAL;
+	VstupManipulator_PojazdVPOZICI : BOOL;
+	VstupManipulator_PrebiehaHoming : BOOL;
+	VstupManipulator_PojazdHOME : BOOL;
+	VstupManipulator_UkoncilCyklus : BOOL;
+END_VAR
+VAR RETAIN
+	VstupManipulator_Drzi_NG_Kus : BOOL;
+END_VAR
+VAR
+	VstupManipulator_OdobralRotor : BOOL;
+	SC_Stol : SequenceControlTyp;
+	Stol_Automat : BOOL;
+	Stol_Manual : BOOL;
+	Stol_Reset : BOOL;
+	Stol_PoINIT : BOOL;
+	Stol_KoniecVyroby : BOOL;
+	Stol_KoniecCyklu : BOOL;
+	Stol_PrebehloOtocenie : BOOL;
+	Stol_BlokovanieOtacania : BOOL;
+	Stol_CakaNaVstupnyManipulator : BOOL;
+	Stol_CakaNaStrihanie : BOOL;
+	Stol_CakaNaRazenie : BOOL;
+	Stol_CakaNaValcovanie : BOOL;
+	Stol_CakaNaMeranie : BOOL;
+	Stol_CakaNaVystupnyManipulator : BOOL;
+	Stol_NG_KusNaStole : BOOL;
+	Stol_OdoberNG_Kus : BOOL;
+	Stol_StavPrazdnyStol : BOOL;
+	Stol_RR_OtacajVPRED : BOOL;
+	Stol_RR_OtacajVZAD : BOOL;
+END_VAR
+VAR RETAIN
+	Stol_Pozicia_1 : USINT; (*Pozicia stola pod meranim  0 - neznamy kus, 1 - kus OK, 2 - kus NG *)
+	Stol_Pozicia_2 : USINT; (*PozÌcia medzi meranim a v˝stupn˝m manipul·torom    0 - neznamy kus, 1 - kus OK, 2 - kus NG *)
+	Stol_Pozicia_3 : USINT; (*PozÌcia pod v˝stupn˝m manipul·torom     0 - neznamy kus, 1 - kus OK, 2 - kus NG *)
+END_VAR
+VAR
+	SC_Strihanie : SequenceControlTyp;
+	Strihanie_Automat : BOOL;
+	Strihanie_Manual : BOOL;
+	Strihanie_Reset : BOOL;
+	Strihanie_PoINIT : BOOL;
+	Strihanie_KoniecVyroby : BOOL;
+	Strihanie_KoniecCyklu : BOOL;
+	Strihanie_UkoncilCyklus : BOOL;
+	Strihanie_SpustiRazenie : BOOL;
+	Strihanie_RR_Centrovanie_OTVOR : BOOL;
+	Strihanie_RR_Centrovanie_ZATVOR : BOOL;
+	SC_Razenie : SequenceControlTyp;
+	Razenie_Automat : BOOL;
+	Razenie_Manual : BOOL;
+	Razenie_Reset : BOOL;
+	Razenie_PoINIT : BOOL;
+	Razenie_KoniecVyroby : BOOL;
+	Razenie_KoniecCyklu : BOOL;
+	Razenie_UkoncilCyklus : BOOL;
+	SC_Valcovanie : SequenceControlTyp;
+	Valcovanie_Automat : BOOL;
+	Valcovanie_Manual : BOOL;
+	Valcovanie_Reset : BOOL;
+	Valcovanie_PoINIT : BOOL;
+	Valcovanie_KoniecVyroby : BOOL;
+	Valcovanie_KoniecCyklu : BOOL;
+	Valcovanie_ServoRychlJoggingu : REAL;
+	Valcovanie_ServoRychlostPolohov : REAL;
+	Valcovanie_Rychlost_MM_s : REAL;
+END_VAR
+VAR RETAIN
+	Valcovanie_RychlostJog_MM_s : REAL;
+END_VAR
+VAR
+	Valcovanie_HomingOK : BOOL;
+	Valcovanie_AktualPozMM : REAL;
+	Valcovanie_ZadanaPozMM : REAL;
+	Valcovanie_ZdvihVPOZICI : BOOL;
+	Valcovanie_PrebiehaHoming : BOOL;
+	Valcovanie_ZdvihHOME : BOOL;
+	Valcovanie_FM_RozbehRampa : UINT; (*0.1*)
+	Valcovanie_FM_DobehRampa : UINT; (*0.1*)
+	Valcovanie_FM_RychlostOtac_Hz : INT;
+	Valcovanie_UkoncilCyklus : BOOL;
+	CasValcovania_ms : TIME;
+	SC_Valcovanie2 : SequenceControlTyp;
+	Valcovanie2_Automat : BOOL;
+	Valcovanie2_Manual : BOOL;
+	Valcovanie2_Reset : BOOL;
+	Valcovanie2_PoINIT : BOOL;
+	Valcovanie2_KoniecVyroby : BOOL;
+	Valcovanie2_KoniecCyklu : BOOL;
+END_VAR
+VAR RETAIN
+	Valcovanie2_ServoJoggRychl_MM_s : REAL;
+	Valcovanie2_ServoPracRychl1_MM_s : REAL; (*R˝chlosù priblÌûenia*)
+	Valcovanie2_ServoPracRychl2_MM_s : REAL; (*R˝chlosù valcovania*)
+	Valcovanie2_MomentPritlaku_Nm : REAL;
+END_VAR
+VAR
+	Valcovanie2_HomingOK : BOOL;
+	Valcovanie2_AktualPozMM : REAL;
+END_VAR
+VAR RETAIN
+	Valcovanie2_ZadanaPozMM : REAL;
+	Valcovanie2_ZadanaPozSTART_MM : REAL; (*»akacia pozÌcia pod stolom*)
+END_VAR
+VAR
+	Valcovanie2_ZdvihVPOZICI : BOOL;
+	Valcovanie2_PrebiehaHoming : BOOL;
+	Valcovanie2_ZdvihHOME : BOOL;
+END_VAR
+VAR RETAIN
+	Valcovanie2_FM_RozbehRampa_s : REAL;
+	Valcovanie2_FM_DobehRampa_s : REAL;
+	Valcovanie2_FM_RychlostOtac_Hz : REAL;
+END_VAR
+VAR
+	Valcovanie2_UkoncilCyklus : BOOL;
+END_VAR
+VAR RETAIN
+	Valcovanie2_CasValcovania_s : REAL;
+	Valcovanie2_CasStrekuOleja_s : REAL;
+	Valcovanie2_PocetCyklStrekuOleja : USINT;
+END_VAR
+VAR
+	Valcovanie2_DavkaOleja : BOOL;
+	SC_Meranie : SequenceControlTyp;
+	Meranie_Automat : BOOL;
+	Meranie_Manual : BOOL;
+	Meranie_Reset : BOOL;
+	Meranie_PoINIT : BOOL;
+	Meranie_KoniecVyroby : BOOL;
+	Meranie_KoniecCyklu : BOOL;
+	Meranie_FM_RozbehRampa : UINT;
+	Meranie_FM_DobehRampa : UINT; (*0.1*)
+	Meranie_FM_RychlostOtac_Hz : INT; (*0.1*)
+	Meranie_UkoncilCyklus : BOOL;
+	Meranie_ObsluhaRozhodla : BOOL;
+	SC_VystupnyManipulator : SequenceControlTyp;
+	VystupManipulator_Automat : BOOL;
+	VystupManipulator_Manual : BOOL;
+	VystupManipulator_Reset : BOOL;
+	VystupManipulator_PoINIT : BOOL;
+	VystupManipulator_KoniecVyroby : BOOL;
+	VystupManipulator_KoniecCyklu : BOOL;
+	VystupManipulator_RychlJoggingu : REAL;
+	VystupManipulator_RychlostPoloho : REAL;
+	VystupManipul_Rychlost_MM_s : REAL;
+END_VAR
+VAR RETAIN
+	VystupManipul_RychlostJog_MM_s : REAL;
+END_VAR
+VAR
+	VystupManipulator_HomingOK : BOOL;
+	VystupManipulator_AktualPozMM : REAL;
+	VystupManipulator_ZadanaPozMM : REAL;
+	VystupManipulator_PojazdVPOZICI : BOOL;
+	VystupManipulator_PrebiehaHoming : BOOL;
+	VystupManipulator_PojazdHOME : BOOL;
+	VystupManipulator_UkoncilCyklus : BOOL;
+	VystupManipulator_OdoberNGKus : BOOL;
+	VystupManipulator_Drzi_OK_Kus : BOOL;
+	VystupManipulator_Drzi_NG_Kus : BOOL;
+	SC_VystupnyOdsuvac : SequenceControlTyp;
+	VystupOdsuvac_Automat : BOOL;
+	VystupOdsuvac_Manual : BOOL;
+	VystupOdsuvac_Reset : BOOL;
+	VystupOdsuvac_PoINIT : BOOL;
+	VystupOdsuvac_KoniecVyroby : BOOL;
+	VystupOdsuvac_KoniecCyklu : BOOL;
+	VystupOdsuvac_CakaNaKusy : BOOL;
+	VystupOdsuvac_KusyVlozene : BOOL;
+END_VAR
+(*************Vizualizacia***********************)
+VAR
+	CisloAktualnejObrazovky : USINT;
+	CisloZadanejObrazovky : USINT;
+	BlikanieTlacitkaStartZariadenia : BOOL;
+	TP_ModraLEDResetCS : USINT;
+	TP_ModraLEDResetOplotenia : USINT;
+	TP_ZamkniTlacStartAutomat : USINT;
+	TP_ZamkniTlacUkoncenieVyroby : USINT;
+	TP_ZamkniTlacKoniecCyklu : USINT;
+	TP_ZobrazHlasenieResetZariadenia : USINT;
+	TP_ZobrazTlacitkoSetup : USINT;
+	TP_ZobrazTlacitkoAlarmy : USINT;
+	TP_ZobrazTlacitkoHome : USINT;
+	TP_ZobrazTlacitkoSpat : USINT;
+	TP_ZobrazHlasenieDoprNG_Plny : USINT;
+	TP_ZobrazHlasenieDoprOK_Plny : USINT;
+	TP_ZobrazHlasenieNizkaHladOleja : USINT;
+	TP_ZobrazHlasenieZamkyVyblokov : USINT;
+	TP_ZamkniTlacitkoOtacanieStola : USINT;
+	TP_ZamkniTlacitkoHomingServ : USINT;
+	TP_ZamkniTlacitkoOvladanieZamkov : USINT;
+	TP_ZamkniTlacitkoOvladanieBZ1 : USINT;
+	TP_ZamkniTlacitkoOvladanieBZ2 : USINT;
+	TP_ZamkniTlacitkoOvladanieBZ3 : USINT;
+	TP_ZamkniTlacitkoOvladanieBZ4 : USINT;
+	TP_ZamkniTlacitkoOvladanieBZ5 : USINT;
+	TP_ZamkniTlacitkoOvladanieBZ6 : USINT;
+	TP_ZamkniTlacitkoRezimAutomat : USINT;
+	TP_ZamkniTlacitkoRezimRevork : USINT;
+	TP_ZamkniTlacitkaAktivValcovania : USINT;
+	TP_ZamkniTlacitkoRezimManual : USINT;
+	TP_ZamkniTlacitkaZamkovOplotenia : USINT;
+	TP_ZamkniTlacitkoServis : USINT;
+	TP_VstupManip_ZamkniTlacPojazdu : USINT;
+	TP_Strihanie_ZamkniZdvihRotora : USINT;
+	TP_Valcovanie_ZamkniZdvihRotora : USINT;
+	TP_Valcovanie_ZamkniZdvihServa : USINT;
+	TP_Valcovanie2_ZamkniZdvihServa : USINT;
+	TP_Valcovanie2_ZamkniZostupServa : USINT;
+	TP_Valcovanie2_ZamkniHomeServa : USINT;
+	TP_Valcovanie2_ZamkniOtacVPRED : USINT;
+	TP_Valcovanie2_ZamkniOtacVZAD : USINT;
+	TP_Razenie_ZamkniZdvihRotora : USINT;
+	TP_Stol_ZamkniOtacanie : USINT;
+	TP_Stol_Centrovanie_VYSUN : BOOL;
+	TP_Stol_Centrovanie_ZASUN : BOOL;
+	TP_Meranie_ZamkniZdvihRotora : USINT;
+	TP_VystupManip_ZamkniTlacPojazdu : USINT;
+	TP_VystOdsuvac_ZamkniTlacVysunut : USINT;
+END_VAR
+VAR RETAIN
+	TP_VstupManip_PoziciaOdoberania : REAL; (*v mm*)
+	TP_VstupManip_PoziciaUkladania : REAL; (*v mm*)
+	TP_VstupManip_RychlostPojazdu : REAL; (*v mm/s*)
+	TP_Razenie_CasRazenia : REAL; (*v s*)
+	TP_Valcovanie_PoziciaVnorenia : REAL; (*v mm*)
+	TP_Valcovanie_RychlostZdvihu : REAL; (*v mm/s*)
+	TP_Valcovanie_RychlostOtacania : INT; (*v Hz*)
+	TP_Valcovanie_CasStrekuOleja : REAL; (*v s*)
+	TP_Valcovanie_PocetCyklPredStrek : UINT;
+	TP_Meranie_RychlostOtacania : INT; (*v Hz*)
+	TP_Meranie_CasMerania : REAL; (*v s*)
+	TP_VystupManip_PoziciaOdoberania : REAL; (*v mm*)
+	TP_VystupManip_PoziciaUklad_OK : REAL; (*v mm*)
+	TP_VystupManip_PoziciaUklad_NG : REAL; (*v mm*)
+	TP_VystupManip_RychlostPojazdu : REAL; (*v mm/s*)
+END_VAR
+VAR
+	TP_Zariadenie_TaktTime : REAL;
+	TP_ZamkniParametreUrovenOperator : USINT;
+	TP_ZamkniParametreUrovenServisak : USINT;
+END_VAR
+VAR RETAIN
+	TP_CasValcovania_s : REAL; (*v sek*)
+END_VAR
+VAR
+	Slider : UINT;
+	StavOddelovaca : USINT;
+	StavZdvihuRotora : USINT;
+	StavVstupnehoManipulatora : USINT;
+	StavStola : USINT;
+	StavStrihania : USINT;
+	StavRazenia : USINT;
+	StavValcovania : USINT;
+	StavValcovania2 : USINT;
+	StavMerania : USINT;
+	StavVystupnehoManipulatora : USINT;
+	StavVystupnehoOdsuvaca : USINT;
+	StavOperatora : USINT;
+	TEST : BOOL;
+END_VAR
+(****Komunik·cie medzi PLC*********)
+VAR
+	ModBus_Input1 : UINT;
+	ModBus_Input2 : UINT;
+	ModBus_Input3 : UINT;
+	ModBus_Input4 : UINT;
+	ModBus_Input5 : UINT;
+	ModBus_Output1 : UINT;
+	ModBus_Output2 : UINT;
+	ModBus_Output3 : UINT;
+	ModBus_Output4 : UINT;
+	ModBus_Output5 : UINT;
+END_VAR
+(****Komunik·cie medzi PLC*********)
+VAR
+	Stol : StolStruc;
+	Vyrazanie : VyrazanieStruc;
+END_VAR

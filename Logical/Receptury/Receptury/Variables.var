@@ -1,0 +1,11 @@
+VAR
+	MpRecipeUI_0 : MpRecipeUI;
+	UISetup : MpRecipeUISetupType;
+	UIConnect : MpRecipeUIConnectType := (0);
+	i : UINT;
+	old_i : UINT;
+	ZoznamReceptur : ARRAY[0..20] OF STRING[30] := [21('')];
+	IndexZoznam : UINT;
+	MoveUP : BOOL;
+	MoveDown : BOOL;
+END_VAR

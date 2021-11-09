@@ -1,0 +1,5 @@
+VAR
+	SC_OvlOdsuvaca : SequenceControlTyp;
+	Odsuvac_VYSUN : BOOL;
+	Odsuvac_ZASUN : BOOL;
+END_VAR

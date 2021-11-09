@@ -1,0 +1,9 @@
+VAR
+	SC_OvlZdvihu : SequenceControlTyp;
+	Rotor_ZDVIHNI : BOOL;
+	Rotor_POLOZ : BOOL;
+	SC_OvlOtacania : SequenceControlTyp;
+	RotorOtacaj_VPRED : BOOL;
+	RotorOtacaj_VZAD : BOOL;
+	CasMerania : TIME;
+END_VAR

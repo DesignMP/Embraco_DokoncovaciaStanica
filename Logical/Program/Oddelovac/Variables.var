@@ -1,0 +1,5 @@
+VAR
+	SC_OvlOddelovaca : SequenceControlTyp;
+	Oddelovac_NAVAZANIE : BOOL;
+	Oddelovac_VYVAZANIE : BOOL;
+END_VAR

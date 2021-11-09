@@ -1,0 +1,25 @@
+VAR
+	SC_OvlServoZdvihu : SequenceControlTyp;
+	ServoZdvih_JoggDOLE : BOOL;
+	ServoZdvih_JoggHORE : BOOL;
+	ServoZdvih_Polohuj : BOOL;
+	RR_PoziciaVychodzia : BOOL;
+	RR_PoziciaValcovania : BOOL;
+	SC_OvlZdvihu : SequenceControlTyp;
+	Rotor_ZDVIHNI : BOOL;
+	Rotor_POLOZ : BOOL;
+	SC_OvlGripra : SequenceControlTyp;
+	Otvor_Griper : BOOL;
+	Zatvor_Griper : BOOL;
+	SC_OvlOtacania : SequenceControlTyp;
+	RotorOtacaj_VPRED : BOOL;
+	RotorOtacaj_VZAD : BOOL;
+	KonstantaZdvihu_MM : REAL;
+	KonstantaZdvihu_Servo : REAL;
+	CasStrekuOleja : TIME;
+	PocetCyklovValcovania : UINT;
+	RR_StartOlejovania : BOOL;
+	CasStrikaniaOleja : TON;
+	Priznak_ValcovanieNG : BOOL;
+	Priznak_ValcovanieOK : BOOL;
+END_VAR

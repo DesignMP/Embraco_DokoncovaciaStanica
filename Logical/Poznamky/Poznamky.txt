@@ -1,0 +1,4 @@
+Heslo do safety - vlmardo
+Stanica valcovania 1 - Zdvih valcovaèky - 1ot serva = 10mm t.j. 1000 jednotiek
+Manipulator - 1ot serva = 8mm  t.j. 800 jednotiek
+Stanica valcovania 2 - Zdvih rotora - 1ot serva = 10mm t.j. 1000 jednotiek

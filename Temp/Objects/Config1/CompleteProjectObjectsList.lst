@@ -1,0 +1,1671 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.10.3.60 SP"?>
+<Objects>
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package.ParentUnknown"
+    LastWriteTime="131982440080000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Temp\Includes\AS_TempDecl\Config1\GlobalComponents\MpComponents.var"
+    LogicalPath="MpComponents.var"
+    Type="File"
+    LastWriteTime="132809228199082858"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="132475594240000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="132562300738409003"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="132809230270361700" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\operator\Binary.lby"
+    LogicalPath="Libraries.operator"
+    Type="Library"
+    LastWriteTime="131643531960000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\operator\operator.fun"
+    LogicalPath="Libraries.operator.operator.fun"
+    Type="File"
+    LastWriteTime="131643531960000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\operator\operator.typ"
+    LogicalPath="Libraries.operator.operator.typ"
+    Type="File"
+    LastWriteTime="131643531960000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\operator\operator.var"
+    LogicalPath="Libraries.operator.operator.var"
+    Type="File"
+    LastWriteTime="131643531960000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\runtime\Binary.lby"
+    LogicalPath="Libraries.runtime"
+    Type="Library"
+    LastWriteTime="131643531980000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\runtime\runtime.fun"
+    LogicalPath="Libraries.runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="131643531980000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\runtime\runtime.typ"
+    LogicalPath="Libraries.runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="131643531980000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\runtime\runtime.var"
+    LogicalPath="Libraries.runtime.runtime.var"
+    Type="File"
+    LastWriteTime="131643531980000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\astime\Binary.lby"
+    LogicalPath="Libraries.astime"
+    Type="Library"
+    LastWriteTime="131643531980000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\astime\astime.fun"
+    LogicalPath="Libraries.astime.astime.fun"
+    Type="File"
+    LastWriteTime="131643531980000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\astime\astime.typ"
+    LogicalPath="Libraries.astime.astime.typ"
+    Type="File"
+    LastWriteTime="131643531980000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\astime\astime.var"
+    LogicalPath="Libraries.astime.astime.var"
+    Type="File"
+    LastWriteTime="131643531980000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\AsIecCon\Binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="131643532000000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="131643532000000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\AsIecCon\AsIecCon.typ"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.typ"
+    Type="File"
+    LastWriteTime="131643532000000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\AsIecCon\AsIecCon.var"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.var"
+    Type="File"
+    LastWriteTime="131643532000000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\AsSafety\Binary.lby"
+    LogicalPath="Libraries.AsSafety"
+    Type="Library"
+    LastWriteTime="131643549060000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\AsSafety\AsSafety.fun"
+    LogicalPath="Libraries.AsSafety.AsSafety.fun"
+    Type="File"
+    LastWriteTime="131643549060000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\AsSafety\AsSafety.typ"
+    LogicalPath="Libraries.AsSafety.AsSafety.typ"
+    Type="File"
+    LastWriteTime="131643549060000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\AsSafety\AsSafety.var"
+    LogicalPath="Libraries.AsSafety.AsSafety.var"
+    Type="File"
+    LastWriteTime="131643549060000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\FileIO\Binary.lby"
+    LogicalPath="Libraries.FileIO"
+    Type="Library"
+    LastWriteTime="131643549060000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\FileIO\FileIO.fun"
+    LogicalPath="Libraries.FileIO.FileIO.fun"
+    Type="File"
+    LastWriteTime="131643549060000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\FileIO\FileIO.typ"
+    LogicalPath="Libraries.FileIO.FileIO.typ"
+    Type="File"
+    LastWriteTime="131643549060000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\FileIO\FileIO.var"
+    LogicalPath="Libraries.FileIO.FileIO.var"
+    Type="File"
+    LastWriteTime="131643549060000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\DataObj\Binary.lby"
+    LogicalPath="Libraries.DataObj"
+    Type="Library"
+    LastWriteTime="131643549060000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\DataObj\DataObj.fun"
+    LogicalPath="Libraries.DataObj.DataObj.fun"
+    Type="File"
+    LastWriteTime="131643549060000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\DataObj\DataObj.typ"
+    LogicalPath="Libraries.DataObj.DataObj.typ"
+    Type="File"
+    LastWriteTime="131643549060000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\DataObj\DataObj.var"
+    LogicalPath="Libraries.DataObj.DataObj.var"
+    Type="File"
+    LastWriteTime="131643549060000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\AsXml\Binary.lby"
+    LogicalPath="Libraries.AsXml"
+    Type="Library"
+    LastWriteTime="131643549060000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\AsXml\AsXml.fun"
+    LogicalPath="Libraries.AsXml.AsXml.fun"
+    Type="File"
+    LastWriteTime="131643549060000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\AsXml\AsXml.typ"
+    LogicalPath="Libraries.AsXml.AsXml.typ"
+    Type="File"
+    LastWriteTime="131643549060000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\AsXml\AsXml.var"
+    LogicalPath="Libraries.AsXml.AsXml.var"
+    Type="File"
+    LastWriteTime="131643549060000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\standard\Binary.lby"
+    LogicalPath="Libraries.standard"
+    Type="Library"
+    LastWriteTime="131643549060000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\standard\standard.fun"
+    LogicalPath="Libraries.standard.standard.fun"
+    Type="File"
+    LastWriteTime="131643549060000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\standard\standard.typ"
+    LogicalPath="Libraries.standard.standard.typ"
+    Type="File"
+    LastWriteTime="131643549060000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\standard\standard.var"
+    LogicalPath="Libraries.standard.standard.var"
+    Type="File"
+    LastWriteTime="131643549060000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\AsEPL\Binary.lby"
+    LogicalPath="Libraries.AsEPL"
+    Type="Library"
+    LastWriteTime="131643584920000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\AsEPL\AsEPL.fun"
+    LogicalPath="Libraries.AsEPL.AsEPL.fun"
+    Type="File"
+    LastWriteTime="131643584920000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\AsEPL\AsEPL.typ"
+    LogicalPath="Libraries.AsEPL.AsEPL.typ"
+    Type="File"
+    LastWriteTime="131643584920000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\AsEPL\AsEPL.var"
+    LogicalPath="Libraries.AsEPL.AsEPL.var"
+    Type="File"
+    LastWriteTime="131643584920000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\AsIOAcc\Binary.lby"
+    LogicalPath="Libraries.AsIOAcc"
+    Type="Library"
+    LastWriteTime="131643585180000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\AsIOAcc\AsIOAcc.fun"
+    LogicalPath="Libraries.AsIOAcc.AsIOAcc.fun"
+    Type="File"
+    LastWriteTime="131643585180000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\AsIOAcc\AsIOAcc.typ"
+    LogicalPath="Libraries.AsIOAcc.AsIOAcc.typ"
+    Type="File"
+    LastWriteTime="131643585180000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\AsIOAcc\AsIOAcc.var"
+    LogicalPath="Libraries.AsIOAcc.AsIOAcc.var"
+    Type="File"
+    LastWriteTime="131643585180000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\brsystem\Binary.lby"
+    LogicalPath="Libraries.brsystem"
+    Type="Library"
+    LastWriteTime="131643647080000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\brsystem\brsystem.fun"
+    LogicalPath="Libraries.brsystem.brsystem.fun"
+    Type="File"
+    LastWriteTime="131643647080000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\brsystem\brsystem.typ"
+    LogicalPath="Libraries.brsystem.brsystem.typ"
+    Type="File"
+    LastWriteTime="131643647080000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\brsystem\brsystem.var"
+    LogicalPath="Libraries.brsystem.brsystem.var"
+    Type="File"
+    LastWriteTime="131643647080000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\sys_lib\Binary.lby"
+    LogicalPath="Libraries.sys_lib"
+    Type="Library"
+    LastWriteTime="131643647080000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\sys_lib\sys_lib.fun"
+    LogicalPath="Libraries.sys_lib.sys_lib.fun"
+    Type="File"
+    LastWriteTime="131643647080000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\sys_lib\sys_lib.typ"
+    LogicalPath="Libraries.sys_lib.sys_lib.typ"
+    Type="File"
+    LastWriteTime="131643647080000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\sys_lib\sys_lib.var"
+    LogicalPath="Libraries.sys_lib.sys_lib.var"
+    Type="File"
+    LastWriteTime="131643647080000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\IecCheck\IEC.lby"
+    LogicalPath="Libraries.IecCheck"
+    Type="Library"
+    LastWriteTime="131644489640000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\IecCheck\IecCheck.fun"
+    LogicalPath="Libraries.IecCheck.IecCheck.fun"
+    Type="File"
+    LastWriteTime="131644489640000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\IecCheck\IecCheck.st"
+    LogicalPath="Libraries.IecCheck.IecCheck.st"
+    Type="File"
+    LastWriteTime="131644489640000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\SC\IEC.lby"
+    LogicalPath="Libraries.SC"
+    Type="Library"
+    LastWriteTime="131644489640000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\SC\Types.typ"
+    LogicalPath="Libraries.SC.Types.typ"
+    Type="File"
+    LastWriteTime="131644489640000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\SC\Constants.var"
+    LogicalPath="Libraries.SC.Constants.var"
+    Type="File"
+    LastWriteTime="131644489640000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\SC\SC.fun"
+    LogicalPath="Libraries.SC.SC.fun"
+    Type="File"
+    LastWriteTime="131644489640000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\SC\SequenceControl.st"
+    LogicalPath="Libraries.SC.SequenceControl.st"
+    Type="File"
+    LastWriteTime="131644489640000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\AsBrStr\Binary.lby"
+    LogicalPath="Libraries.AsBrStr"
+    Type="Library"
+    LastWriteTime="131644489660000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\AsBrStr\AsBrStr.fun"
+    LogicalPath="Libraries.AsBrStr.AsBrStr.fun"
+    Type="File"
+    LastWriteTime="131644489660000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\AsBrStr\AsBrStr.typ"
+    LogicalPath="Libraries.AsBrStr.AsBrStr.typ"
+    Type="File"
+    LastWriteTime="131644489660000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\AsBrStr\AsBrStr.var"
+    LogicalPath="Libraries.AsBrStr.AsBrStr.var"
+    Type="File"
+    LastWriteTime="131644489660000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\AxisLib\ANSIC.lby"
+    LogicalPath="Libraries.AxisLib"
+    Type="Library"
+    LastWriteTime="131661813260000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\AxisLib\AxisLib.typ"
+    LogicalPath="Libraries.AxisLib.AxisLib.typ"
+    Type="File"
+    LastWriteTime="131661813260000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\AxisLib\AxisLib.var"
+    LogicalPath="Libraries.AxisLib.AxisLib.var"
+    Type="File"
+    LastWriteTime="131661813260000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\AxisLib\AxisLib.fun"
+    LogicalPath="Libraries.AxisLib.AxisLib.fun"
+    Type="File"
+    LastWriteTime="131661813260000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\AxisLib\Axis.c"
+    LogicalPath="Libraries.AxisLib.Axis.c"
+    Type="File"
+    LastWriteTime="131661813260000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\AxisLib\AxisExtension.c"
+    LogicalPath="Libraries.AxisLib.AxisExtension.c"
+    Type="File"
+    LastWriteTime="131661813260000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\Acp10man\Binary.lby"
+    LogicalPath="Libraries.Acp10man"
+    Type="Library"
+    LastWriteTime="132809230269464010" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\Acp10man\Acp10man.typ"
+    LogicalPath="Libraries.Acp10man.Acp10man.typ"
+    Type="File"
+    LastWriteTime="132809230269464010"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\Acp10par\Binary.lby"
+    LogicalPath="Libraries.Acp10par"
+    Type="Library"
+    LastWriteTime="132809230269732763" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\Acp10par\Acp10par.var"
+    LogicalPath="Libraries.Acp10par.Acp10par.var"
+    Type="File"
+    LastWriteTime="132809230269732763"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\NcGlobal\Binary.lby"
+    LogicalPath="Libraries.NcGlobal"
+    Type="Library"
+    LastWriteTime="132809230269872380" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\NcGlobal\NcGlobal.fun"
+    LogicalPath="Libraries.NcGlobal.NcGlobal.fun"
+    Type="File"
+    LastWriteTime="132809230269832492"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\NcGlobal\NcGlobal.typ"
+    LogicalPath="Libraries.NcGlobal.NcGlobal.typ"
+    Type="File"
+    LastWriteTime="132809230269842465"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\NcGlobal\NcGlobal.var"
+    LogicalPath="Libraries.NcGlobal.NcGlobal.var"
+    Type="File"
+    LastWriteTime="132809230269852469"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\Acp10_MC\binary.lby"
+    LogicalPath="Libraries.Acp10_MC"
+    Type="Library"
+    LastWriteTime="132809230270002041" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\Acp10_MC\acp10_mc.fun"
+    LogicalPath="Libraries.Acp10_MC.acp10_mc.fun"
+    Type="File"
+    LastWriteTime="132809230269982093"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\Acp10_MC\acp10_mc.typ"
+    LogicalPath="Libraries.Acp10_MC.acp10_mc.typ"
+    Type="File"
+    LastWriteTime="132809230269992070"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\Acp10_MC\acp10_mc.var"
+    LogicalPath="Libraries.Acp10_MC.acp10_mc.var"
+    Type="File"
+    LastWriteTime="132809230270002041"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\MpRecipe\Binary.lby"
+    LogicalPath="Libraries.MpRecipe"
+    Type="Library"
+    LastWriteTime="132809230270151643" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\MpRecipe\MpRecipe.typ"
+    LogicalPath="Libraries.MpRecipe.MpRecipe.typ"
+    Type="File"
+    LastWriteTime="132809230270121727"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\MpRecipe\MpRecipeAlarm.typ"
+    LogicalPath="Libraries.MpRecipe.MpRecipeAlarm.typ"
+    Type="File"
+    LastWriteTime="132809230270131699"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\MpRecipe\MpRecipeError.typ"
+    LogicalPath="Libraries.MpRecipe.MpRecipeError.typ"
+    Type="File"
+    LastWriteTime="132809230270141721"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\MpRecipe\MpRecipe.fun"
+    LogicalPath="Libraries.MpRecipe.MpRecipe.fun"
+    Type="File"
+    LastWriteTime="132809230270151643"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\MpBase\Binary.lby"
+    LogicalPath="Libraries.MpBase"
+    Type="Library"
+    LastWriteTime="132809230270291274" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\MpBase\MpBase.typ"
+    LogicalPath="Libraries.MpBase.MpBase.typ"
+    Type="File"
+    LastWriteTime="132809230270261626"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\MpBase\MpBase.var"
+    LogicalPath="Libraries.MpBase.MpBase.var"
+    Type="File"
+    LastWriteTime="132809230270271327"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\MpBase\MpBase.fun"
+    LogicalPath="Libraries.MpBase.MpBase.fun"
+    Type="File"
+    LastWriteTime="132809230270281297"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Libraries\MpBase\Common_EventLog.tmx"
+    LogicalPath="Libraries.MpBase.Common_EventLog.tmx"
+    Type="File"
+    LastWriteTime="132809230270291274"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Zoznam_IO\Package.pkg"
+    LogicalPath="Zoznam_IO"
+    Type="Package"
+    LastWriteTime="131647004180000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Zoznam_IO\Vstupy.var"
+    LogicalPath="Zoznam_IO.Vstupy.var"
+    Type="File"
+    LastWriteTime="132562087136479758"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Zoznam_IO\Vystupy.var"
+    LogicalPath="Zoznam_IO.Vystupy.var"
+    Type="File"
+    LastWriteTime="132475603160000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Zoznam_IO\SafetyVstupy.var"
+    LogicalPath="Zoznam_IO.SafetyVstupy.var"
+    Type="File"
+    LastWriteTime="131647154300000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Zoznam_IO\SafetyVystupy.var"
+    LogicalPath="Zoznam_IO.SafetyVystupy.var"
+    Type="File"
+    LastWriteTime="131647011040000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\Package.pkg"
+    LogicalPath="Program"
+    Type="Package"
+    LastWriteTime="132053888060000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\Main\IEC.prg"
+    LogicalPath="Program.Main"
+    Type="Program"
+    LastWriteTime="131870937600000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\Main\Main.st"
+    LogicalPath="Program.Main.Main.st"
+    Type="File"
+    LastWriteTime="132072907840000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\Main\Types.typ"
+    LogicalPath="Program.Main.Types.typ"
+    Type="File"
+    LastWriteTime="131648674780000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\Main\Variables.var"
+    LogicalPath="Program.Main.Variables.var"
+    Type="File"
+    LastWriteTime="131946827420000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\Main\ZobrazenieTlacitok.st"
+    LogicalPath="Program.Main.ZobrazenieTlacitok.st"
+    Type="File"
+    LastWriteTime="132475792080000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\Main\OvladanieSafety.st"
+    LogicalPath="Program.Main.OvladanieSafety.st"
+    Type="File"
+    LastWriteTime="132072881960000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\Main\OvladanieHydrauliky.st"
+    LogicalPath="Program.Main.OvladanieHydrauliky.st"
+    Type="File"
+    LastWriteTime="132475727200000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\Oddelovac\IEC.prg"
+    LogicalPath="Program.Oddelovac"
+    Type="Program"
+    LastWriteTime="131648800440000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\Oddelovac\Main.st"
+    LogicalPath="Program.Oddelovac.Main.st"
+    Type="File"
+    LastWriteTime="131867342980000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\Oddelovac\Types.typ"
+    LogicalPath="Program.Oddelovac.Types.typ"
+    Type="File"
+    LastWriteTime="131648788620000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\Oddelovac\Variables.var"
+    LogicalPath="Program.Oddelovac.Variables.var"
+    Type="File"
+    LastWriteTime="131648900420000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\Oddelovac\OvladanieOddelovaca.st"
+    LogicalPath="Program.Oddelovac.OvladanieOddelovaca.st"
+    Type="File"
+    LastWriteTime="131837054580000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\ZdvihRotora\IEC.prg"
+    LogicalPath="Program.ZdvihRotora"
+    Type="Program"
+    LastWriteTime="131812127000000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\ZdvihRotora\Main.st"
+    LogicalPath="Program.ZdvihRotora.Main.st"
+    Type="File"
+    LastWriteTime="131877903520000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\ZdvihRotora\Types.typ"
+    LogicalPath="Program.ZdvihRotora.Types.typ"
+    Type="File"
+    LastWriteTime="131812126700000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\ZdvihRotora\Variables.var"
+    LogicalPath="Program.ZdvihRotora.Variables.var"
+    Type="File"
+    LastWriteTime="131812132560000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\ZdvihRotora\OvladanieZdvihu.st"
+    LogicalPath="Program.ZdvihRotora.OvladanieZdvihu.st"
+    Type="File"
+    LastWriteTime="131812919180000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\VstupnyManipulator\IEC.prg"
+    LogicalPath="Program.VstupnyManipulator"
+    Type="Program"
+    LastWriteTime="131648801420000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\VstupnyManipulator\Main.st"
+    LogicalPath="Program.VstupnyManipulator.Main.st"
+    Type="File"
+    LastWriteTime="132475730820000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\VstupnyManipulator\Types.typ"
+    LogicalPath="Program.VstupnyManipulator.Types.typ"
+    Type="File"
+    LastWriteTime="131648788580000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\VstupnyManipulator\Variables.var"
+    LogicalPath="Program.VstupnyManipulator.Variables.var"
+    Type="File"
+    LastWriteTime="131726588280000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\VstupnyManipulator\OvladanieGripra.st"
+    LogicalPath="Program.VstupnyManipulator.OvladanieGripra.st"
+    Type="File"
+    LastWriteTime="131650631360000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\VstupnyManipulator\OvladanieZdvihu.st"
+    LogicalPath="Program.VstupnyManipulator.OvladanieZdvihu.st"
+    Type="File"
+    LastWriteTime="131753108700000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\VstupnyManipulator\OvladaniePojazdu.st"
+    LogicalPath="Program.VstupnyManipulator.OvladaniePojazdu.st"
+    Type="File"
+    LastWriteTime="131868207240000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\OtocnyStol\IEC.prg"
+    LogicalPath="Program.OtocnyStol"
+    Type="Program"
+    LastWriteTime="131649607500000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\OtocnyStol\Main.st"
+    LogicalPath="Program.OtocnyStol.Main.st"
+    Type="File"
+    LastWriteTime="132562293936403060"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\OtocnyStol\Types.typ"
+    LogicalPath="Program.OtocnyStol.Types.typ"
+    Type="File"
+    LastWriteTime="131648788860000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\OtocnyStol\Variables.var"
+    LogicalPath="Program.OtocnyStol.Variables.var"
+    Type="File"
+    LastWriteTime="132554350911121667"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\OtocnyStol\OvladanieOtacania.st"
+    LogicalPath="Program.OtocnyStol.OvladanieOtacania.st"
+    Type="File"
+    LastWriteTime="132562112397858759"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaStrihania\IEC.prg"
+    LogicalPath="Program.StanicaStrihania"
+    Type="Program"
+    LastWriteTime="131648829100000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaStrihania\Main.st"
+    LogicalPath="Program.StanicaStrihania.Main.st"
+    Type="File"
+    LastWriteTime="132562303281734567"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaStrihania\Types.typ"
+    LogicalPath="Program.StanicaStrihania.Types.typ"
+    Type="File"
+    LastWriteTime="131648787040000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaStrihania\Variables.var"
+    LogicalPath="Program.StanicaStrihania.Variables.var"
+    Type="File"
+    LastWriteTime="132562218211512118"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaStrihania\OvladanieZdvihu.st"
+    LogicalPath="Program.StanicaStrihania.OvladanieZdvihu.st"
+    Type="File"
+    LastWriteTime="132475629900000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaStrihania\OvladanieGripraNaliatku.st"
+    LogicalPath="Program.StanicaStrihania.OvladanieGripraNaliatku.st"
+    Type="File"
+    LastWriteTime="132475851540000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaStrihania\OvladanieGripraStriznika.st"
+    LogicalPath="Program.StanicaStrihania.OvladanieGripraStriznika.st"
+    Type="File"
+    LastWriteTime="132475851540000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaStrihania\OvladanieOdkloneniaGriprov.st"
+    LogicalPath="Program.StanicaStrihania.OvladanieOdkloneniaGriprov.st"
+    Type="File"
+    LastWriteTime="132475662880000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaRazenia\IEC.prg"
+    LogicalPath="Program.StanicaRazenia"
+    Type="Program"
+    LastWriteTime="131648831840000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaRazenia\Main.st"
+    LogicalPath="Program.StanicaRazenia.Main.st"
+    Type="File"
+    LastWriteTime="132560329969620877"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaRazenia\Types.typ"
+    LogicalPath="Program.StanicaRazenia.Types.typ"
+    Type="File"
+    LastWriteTime="131648787980000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaRazenia\Variables.var"
+    LogicalPath="Program.StanicaRazenia.Variables.var"
+    Type="File"
+    LastWriteTime="131947006500000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaRazenia\OvladanieZdvihu.st"
+    LogicalPath="Program.StanicaRazenia.OvladanieZdvihu.st"
+    Type="File"
+    LastWriteTime="132475621660000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaVnutornehoValcovania\IEC.prg"
+    LogicalPath="Program.StanicaVnutornehoValcovania"
+    Type="Program"
+    LastWriteTime="132114456740000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaVnutornehoValcovania\Main.st"
+    LogicalPath="Program.StanicaVnutornehoValcovania.Main.st"
+    Type="File"
+    LastWriteTime="132560336954043405"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaVnutornehoValcovania\Types.typ"
+    LogicalPath="Program.StanicaVnutornehoValcovania.Types.typ"
+    Type="File"
+    LastWriteTime="131648788160000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaVnutornehoValcovania\Variables.var"
+    LogicalPath="Program.StanicaVnutornehoValcovania.Variables.var"
+    Type="File"
+    LastWriteTime="132053908060000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaVnutornehoValcovania\OvladanieZdvihuServa.st"
+    LogicalPath="Program.StanicaVnutornehoValcovania.OvladanieZdvihuServa.st"
+    Type="File"
+    LastWriteTime="132053963660000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaVnutornehoValcovania\OvladanieGripra.st"
+    LogicalPath="Program.StanicaVnutornehoValcovania.OvladanieGripra.st"
+    Type="File"
+    LastWriteTime="132114456740000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaVnutornehoValcovania\OvladanieZdvihuRotora.st"
+    LogicalPath="Program.StanicaVnutornehoValcovania.OvladanieZdvihuRotora.st"
+    Type="File"
+    LastWriteTime="131649798860000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaVnutornehoValcovania\OvladanieOtacaniaRotora.st"
+    LogicalPath="Program.StanicaVnutornehoValcovania.OvladanieOtacaniaRotora.st"
+    Type="File"
+    LastWriteTime="131983188240000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaVonkajsiehoValcovania\IEC.prg"
+    LogicalPath="Program.StanicaVonkajsiehoValcovania"
+    Type="Program"
+    LastWriteTime="132046975360000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaVonkajsiehoValcovania\Main.st"
+    LogicalPath="Program.StanicaVonkajsiehoValcovania.Main.st"
+    Type="File"
+    LastWriteTime="132560337554829390"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaVonkajsiehoValcovania\Types.typ"
+    LogicalPath="Program.StanicaVonkajsiehoValcovania.Types.typ"
+    Type="File"
+    LastWriteTime="131982413100000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaVonkajsiehoValcovania\Variables.var"
+    LogicalPath="Program.StanicaVonkajsiehoValcovania.Variables.var"
+    Type="File"
+    LastWriteTime="132073009200000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaVonkajsiehoValcovania\OvlZdvihuRotora.st"
+    LogicalPath="Program.StanicaVonkajsiehoValcovania.OvlZdvihuRotora.st"
+    Type="File"
+    LastWriteTime="132073010160000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaVonkajsiehoValcovania\OvlOtacaniaNastroja.st"
+    LogicalPath="Program.StanicaVonkajsiehoValcovania.OvlOtacaniaNastroja.st"
+    Type="File"
+    LastWriteTime="132052191340000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaVonkajsiehoValcovania\OvlHornehoPritlaku.st"
+    LogicalPath="Program.StanicaVonkajsiehoValcovania.OvlHornehoPritlaku.st"
+    Type="File"
+    LastWriteTime="132051339340000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaMerania\IEC.prg"
+    LogicalPath="Program.StanicaMerania"
+    Type="Program"
+    LastWriteTime="131649609960000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaMerania\Main.st"
+    LogicalPath="Program.StanicaMerania.Main.st"
+    Type="File"
+    LastWriteTime="132560338225084551"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaMerania\Types.typ"
+    LogicalPath="Program.StanicaMerania.Types.typ"
+    Type="File"
+    LastWriteTime="131648789640000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaMerania\Variables.var"
+    LogicalPath="Program.StanicaMerania.Variables.var"
+    Type="File"
+    LastWriteTime="131726469820000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaMerania\OvladanieZdvihu.st"
+    LogicalPath="Program.StanicaMerania.OvladanieZdvihu.st"
+    Type="File"
+    LastWriteTime="132205161120000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\StanicaMerania\OvladanieOtacaniaRotora.st"
+    LogicalPath="Program.StanicaMerania.OvladanieOtacaniaRotora.st"
+    Type="File"
+    LastWriteTime="131726468660000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\VystupnyManipulator\IEC.prg"
+    LogicalPath="Program.VystupnyManipulator"
+    Type="Program"
+    LastWriteTime="131648841980000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\VystupnyManipulator\Main.st"
+    LogicalPath="Program.VystupnyManipulator.Main.st"
+    Type="File"
+    LastWriteTime="132560339014808664"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\VystupnyManipulator\Types.typ"
+    LogicalPath="Program.VystupnyManipulator.Types.typ"
+    Type="File"
+    LastWriteTime="131648789820000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\VystupnyManipulator\Variables.var"
+    LogicalPath="Program.VystupnyManipulator.Variables.var"
+    Type="File"
+    LastWriteTime="132475863540000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\VystupnyManipulator\OvladanieGripra.st"
+    LogicalPath="Program.VystupnyManipulator.OvladanieGripra.st"
+    Type="File"
+    LastWriteTime="131654064740000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\VystupnyManipulator\OvladanieZdvihu.st"
+    LogicalPath="Program.VystupnyManipulator.OvladanieZdvihu.st"
+    Type="File"
+    LastWriteTime="131726422400000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\VystupnyManipulator\OvladaniePojazdu.st"
+    LogicalPath="Program.VystupnyManipulator.OvladaniePojazdu.st"
+    Type="File"
+    LastWriteTime="131837860060000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\VystupnyOdsuvac\IEC.prg"
+    LogicalPath="Program.VystupnyOdsuvac"
+    Type="Program"
+    LastWriteTime="131852814600000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\VystupnyOdsuvac\Types.typ"
+    LogicalPath="Program.VystupnyOdsuvac.Types.typ"
+    Type="File"
+    LastWriteTime="131852814600000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\VystupnyOdsuvac\Main.st"
+    LogicalPath="Program.VystupnyOdsuvac.Main.st"
+    Type="File"
+    LastWriteTime="131836141980000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\VystupnyOdsuvac\Variables.var"
+    LogicalPath="Program.VystupnyOdsuvac.Variables.var"
+    Type="File"
+    LastWriteTime="131650473580000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\VystupnyOdsuvac\OvladanieOdsuvania.st"
+    LogicalPath="Program.VystupnyOdsuvac.OvladanieOdsuvania.st"
+    Type="File"
+    LastWriteTime="131654064320000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\Poruchy_Signalizacie\IEC.prg"
+    LogicalPath="Program.Poruchy_Signalizacie"
+    Type="Program"
+    LastWriteTime="131648905440000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\Poruchy_Signalizacie\Main.st"
+    LogicalPath="Program.Poruchy_Signalizacie.Main.st"
+    Type="File"
+    LastWriteTime="132562089314755442"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\Poruchy_Signalizacie\Types.typ"
+    LogicalPath="Program.Poruchy_Signalizacie.Types.typ"
+    Type="File"
+    LastWriteTime="131648905440000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\Poruchy_Signalizacie\Variables.var"
+    LogicalPath="Program.Poruchy_Signalizacie.Variables.var"
+    Type="File"
+    LastWriteTime="131983103240000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\RychleDeje\IEC.prg"
+    LogicalPath="Program.RychleDeje"
+    Type="Program"
+    LastWriteTime="132052127560000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\RychleDeje\Main.st"
+    LogicalPath="Program.RychleDeje.Main.st"
+    Type="File"
+    LastWriteTime="132052137120000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\RychleDeje\Types.typ"
+    LogicalPath="Program.RychleDeje.Types.typ"
+    Type="File"
+    LastWriteTime="132052127560000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Program\RychleDeje\Variables.var"
+    LogicalPath="Program.RychleDeje.Variables.var"
+    Type="File"
+    LastWriteTime="132052129140000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Komunikacia\Package.pkg"
+    LogicalPath="Komunikacia"
+    Type="Package"
+    LastWriteTime="131655699900000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Komunikacia\KOM_HlavnaLinka\IEC.prg"
+    LogicalPath="Komunikacia.KOM_HlavnaLinka"
+    Type="Program"
+    LastWriteTime="131648799360000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Komunikacia\KOM_HlavnaLinka\Main.st"
+    LogicalPath="Komunikacia.KOM_HlavnaLinka.Main.st"
+    Type="File"
+    LastWriteTime="131737667120000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Komunikacia\KOM_HlavnaLinka\Types.typ"
+    LogicalPath="Komunikacia.KOM_HlavnaLinka.Types.typ"
+    Type="File"
+    LastWriteTime="131648799360000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Komunikacia\KOM_HlavnaLinka\Variables.var"
+    LogicalPath="Komunikacia.KOM_HlavnaLinka.Variables.var"
+    Type="File"
+    LastWriteTime="131648799360000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\PrihlasovaciSystem\Package.pkg"
+    LogicalPath="PrihlasovaciSystem"
+    Type="Package"
+    LastWriteTime="131646943560000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\PrihlasovaciSystem\PrihlasovaciSystem\IEC.prg"
+    LogicalPath="PrihlasovaciSystem.PrihlasovaciSystem"
+    Type="Program"
+    LastWriteTime="131646943560000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\PrihlasovaciSystem\PrihlasovaciSystem\Main.st"
+    LogicalPath="PrihlasovaciSystem.PrihlasovaciSystem.Main.st"
+    Type="File"
+    LastWriteTime="131831774460000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\PrihlasovaciSystem\PrihlasovaciSystem\Types.typ"
+    LogicalPath="PrihlasovaciSystem.PrihlasovaciSystem.Types.typ"
+    Type="File"
+    LastWriteTime="131646943560000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\PrihlasovaciSystem\PrihlasovaciSystem\Variables.var"
+    LogicalPath="PrihlasovaciSystem.PrihlasovaciSystem.Variables.var"
+    Type="File"
+    LastWriteTime="131646943560000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Blikace\Package.pkg"
+    LogicalPath="Blikace"
+    Type="Package"
+    LastWriteTime="132114352680000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Blikace\Blikanie1s\IEC.prg"
+    LogicalPath="Blikace.Blikanie1s"
+    Type="Program"
+    LastWriteTime="131648799480000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Blikace\Blikanie1s\Blikanie1s.st"
+    LogicalPath="Blikace.Blikanie1s.Blikanie1s.st"
+    Type="File"
+    LastWriteTime="131648799480000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Blikace\Blikanie200ms\IEC.prg"
+    LogicalPath="Blikace.Blikanie200ms"
+    Type="Program"
+    LastWriteTime="131648799480000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Blikace\Blikanie200ms\Blikanie200ms.st"
+    LogicalPath="Blikace.Blikanie200ms.Blikanie200ms.st"
+    Type="File"
+    LastWriteTime="131648799480000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Blikace\Blikanie10ms\IEC.prg"
+    LogicalPath="Blikace.Blikanie10ms"
+    Type="Program"
+    LastWriteTime="132114352760000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Blikace\Blikanie10ms\Blikanie10ms.st"
+    LogicalPath="Blikace.Blikanie10ms.Blikanie10ms.st"
+    Type="File"
+    LastWriteTime="132114352900000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Blikace\Blikanie50ms\IEC.prg"
+    LogicalPath="Blikace.Blikanie50ms"
+    Type="Program"
+    LastWriteTime="132114351440000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Blikace\Blikanie50ms\Blikanie50ms.st"
+    LogicalPath="Blikace.Blikanie50ms.Blikanie50ms.st"
+    Type="File"
+    LastWriteTime="132114352340000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Blikace\Blikanie500ms\IEC.prg"
+    LogicalPath="Blikace.Blikanie500ms"
+    Type="Program"
+    LastWriteTime="131648799480000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Blikace\Blikanie500ms\Blikanie500ms.st"
+    LogicalPath="Blikace.Blikanie500ms.Blikanie500ms.st"
+    Type="File"
+    LastWriteTime="131648799480000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Blikace\Blikanie5s\IEC.prg"
+    LogicalPath="Blikace.Blikanie5s"
+    Type="Program"
+    LastWriteTime="131648799480000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Blikace\Blikanie5s\Blikanie5s.st"
+    LogicalPath="Blikace.Blikanie5s.Blikanie5s.st"
+    Type="File"
+    LastWriteTime="131648799480000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Receptury\Package.pkg"
+    LogicalPath="Receptury"
+    Type="Package"
+    LastWriteTime="131646944060000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Receptury\Receptury\IEC.prg"
+    LogicalPath="Receptury.Receptury"
+    Type="Program"
+    LastWriteTime="131646944060000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Receptury\Receptury\Main.st"
+    LogicalPath="Receptury.Receptury.Main.st"
+    Type="File"
+    LastWriteTime="131646944060000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Receptury\Receptury\Types.typ"
+    LogicalPath="Receptury.Receptury.Types.typ"
+    Type="File"
+    LastWriteTime="131646944060000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Receptury\Receptury\Variables.var"
+    LogicalPath="Receptury.Receptury.Variables.var"
+    Type="File"
+    LastWriteTime="131646944060000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieMenicov\Package.pkg"
+    LogicalPath="RiadenieMenicov"
+    Type="Package"
+    LastWriteTime="132052132200000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieMenicov\RiadenieMenicov\IEC.prg"
+    LogicalPath="RiadenieMenicov.RiadenieMenicov"
+    Type="Program"
+    LastWriteTime="131646949920000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieMenicov\RiadenieMenicov\InverterBasic.st"
+    LogicalPath="RiadenieMenicov.RiadenieMenicov.InverterBasic.st"
+    Type="File"
+    LastWriteTime="131982411480000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieMenicov\RiadenieMenicov\InverterBasic.var"
+    LogicalPath="RiadenieMenicov.RiadenieMenicov.InverterBasic.var"
+    Type="File"
+    LastWriteTime="131646949920000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\Package.pkg"
+    LogicalPath="RiadenieServ"
+    Type="Package"
+    LastWriteTime="131982440800000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\VstupnyManipulator\Package.pkg"
+    LogicalPath="RiadenieServ.VstupnyManipulator"
+    Type="Package"
+    LastWriteTime="131646949120000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\VstupnyManipulator\gAxis01a\Apt.dob"
+    LogicalPath="RiadenieServ.VstupnyManipulator.gAxis01a"
+    Type="DataObject"
+    LastWriteTime="131646949120000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\VstupnyManipulator\gAxis01a\gAxis01a.apt"
+    LogicalPath="RiadenieServ.VstupnyManipulator.gAxis01a.gAxis01a.apt"
+    Type="File"
+    LastWriteTime="131646949120000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\VstupnyManipulator\gAxis01i\Ax.dob"
+    LogicalPath="RiadenieServ.VstupnyManipulator.gAxis01i"
+    Type="DataObject"
+    LastWriteTime="131646949120000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\VstupnyManipulator\gAxis01i\gAxis01i.ax"
+    LogicalPath="RiadenieServ.VstupnyManipulator.gAxis01i.gAxis01i.ax"
+    Type="File"
+    LastWriteTime="131740273040000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\VystupnyManipulator\Package.pkg"
+    LogicalPath="RiadenieServ.VystupnyManipulator"
+    Type="Package"
+    LastWriteTime="131646949140000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\VystupnyManipulator\gAxis02a\Apt.dob"
+    LogicalPath="RiadenieServ.VystupnyManipulator.gAxis02a"
+    Type="DataObject"
+    LastWriteTime="131646949140000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\VystupnyManipulator\gAxis02a\gAxis02a.apt"
+    LogicalPath="RiadenieServ.VystupnyManipulator.gAxis02a.gAxis02a.apt"
+    Type="File"
+    LastWriteTime="131646949140000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\VystupnyManipulator\gAxis02i\Ax.dob"
+    LogicalPath="RiadenieServ.VystupnyManipulator.gAxis02i"
+    Type="DataObject"
+    LastWriteTime="131646949140000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\VystupnyManipulator\gAxis02i\gAxis02i.ax"
+    LogicalPath="RiadenieServ.VystupnyManipulator.gAxis02i.gAxis02i.ax"
+    Type="File"
+    LastWriteTime="131740272800000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\ZdvihValcovacky\Package.pkg"
+    LogicalPath="RiadenieServ.ZdvihValcovacky"
+    Type="Package"
+    LastWriteTime="131646949400000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\ZdvihValcovacky\gAxis03a\Apt.dob"
+    LogicalPath="RiadenieServ.ZdvihValcovacky.gAxis03a"
+    Type="DataObject"
+    LastWriteTime="131646949400000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\ZdvihValcovacky\gAxis03a\gAxis03a.apt"
+    LogicalPath="RiadenieServ.ZdvihValcovacky.gAxis03a.gAxis03a.apt"
+    Type="File"
+    LastWriteTime="131646949400000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\ZdvihValcovacky\gAxis03i\Ax.dob"
+    LogicalPath="RiadenieServ.ZdvihValcovacky.gAxis03i"
+    Type="DataObject"
+    LastWriteTime="131646949400000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\ZdvihValcovacky\gAxis03i\gAxis03i.ax"
+    LogicalPath="RiadenieServ.ZdvihValcovacky.gAxis03i.gAxis03i.ax"
+    Type="File"
+    LastWriteTime="131740273340000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\ZdvihRotora\Package.pkg"
+    LogicalPath="RiadenieServ.ZdvihRotora"
+    Type="Package"
+    LastWriteTime="131982440080000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\ZdvihRotora\gAxis04a\Apt.dob"
+    LogicalPath="RiadenieServ.ZdvihRotora.gAxis04a"
+    Type="DataObject"
+    LastWriteTime="131982440080000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\ZdvihRotora\gAxis04a\gAxis04a.apt"
+    LogicalPath="RiadenieServ.ZdvihRotora.gAxis04a.gAxis04a.apt"
+    Type="File"
+    LastWriteTime="131982440080000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\ZdvihRotora\gAxis04i\Ax.dob"
+    LogicalPath="RiadenieServ.ZdvihRotora.gAxis04i"
+    Type="DataObject"
+    LastWriteTime="131982440080000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\ZdvihRotora\gAxis04i\gAxis04i.ax"
+    LogicalPath="RiadenieServ.ZdvihRotora.gAxis04i.gAxis04i.ax"
+    Type="File"
+    LastWriteTime="132052102020000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\acp10etxen\Ett.dob"
+    LogicalPath="RiadenieServ.acp10etxen"
+    Type="DataObject"
+    LastWriteTime="131646949380000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\acp10etxen\acp10etxen.ett"
+    LogicalPath="RiadenieServ.acp10etxen.acp10etxen.ett"
+    Type="File"
+    LastWriteTime="131646949380000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\Serva_PriradenieVstupov\IEC.prg"
+    LogicalPath="RiadenieServ.Serva_PriradenieVstupov"
+    Type="Program"
+    LastWriteTime="131646960600000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\Serva_PriradenieVstupov\Main.st"
+    LogicalPath="RiadenieServ.Serva_PriradenieVstupov.Main.st"
+    Type="File"
+    LastWriteTime="132046956640000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\Serva_PriradenieVstupov\Types.typ"
+    LogicalPath="RiadenieServ.Serva_PriradenieVstupov.Types.typ"
+    Type="File"
+    LastWriteTime="131646960600000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\Serva_PriradenieVstupov\Variables.var"
+    LogicalPath="RiadenieServ.Serva_PriradenieVstupov.Variables.var"
+    Type="File"
+    LastWriteTime="131646960600000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\RiadenieServ\IEC.prg"
+    LogicalPath="RiadenieServ.RiadenieServ"
+    Type="Program"
+    LastWriteTime="131646960600000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\RiadenieServ\Main.st"
+    LogicalPath="RiadenieServ.RiadenieServ.Main.st"
+    Type="File"
+    LastWriteTime="131982478060000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\RiadenieServ\Types.typ"
+    LogicalPath="RiadenieServ.RiadenieServ.Types.typ"
+    Type="File"
+    LastWriteTime="131646960600000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\RiadenieServ\RiadenieServ\Variables.var"
+    LogicalPath="RiadenieServ.RiadenieServ.Variables.var"
+    Type="File"
+    LastWriteTime="131646960600000000"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Vizualizacia\Package.pkg"
+    LogicalPath="Vizualizacia"
+    Type="Package"
+    LastWriteTime="131648672900000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Vizualizacia\Visu\Vc.dob"
+    LogicalPath="Vizualizacia.Visu"
+    Type="DataObject"
+    LastWriteTime="131648672880000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Vizualizacia\Visu\VCObject.vc"
+    LogicalPath="Vizualizacia.Visu.VCObject.vc"
+    Type="File"
+    LastWriteTime="131648672880000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Poznamky\Package.pkg"
+    LogicalPath="Poznamky"
+    Type="Package"
+    LastWriteTime="131648651740000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Logical\Poznamky\Poznamky.txt"
+    LogicalPath="Poznamky.Poznamky.txt"
+    Type="File"
+    LastWriteTime="131982442360000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\Config.pkg"
+    LogicalPath="Config1"
+    Type="Configuration.ParentUnknown"
+    LastWriteTime="131643532040000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\Hardware.hw"
+    LogicalPath="Config1.Hardware.hw"
+    Type="File"
+    LastWriteTime="132809231804507709"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\Hardware.hwl"
+    LogicalPath="Config1.Hardware.hwl"
+    Type="File"
+    LastWriteTime="132809231977935188"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\Cpu.pkg"
+    LogicalPath="Config1.4PPC70_0702_20B"
+    Type="Cpu"
+    LastWriteTime="132809230508966582" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\Cpu.sw"
+    LogicalPath="Config1.4PPC70_0702_20B.Cpu.sw"
+    Type="File"
+    LastWriteTime="132114353020000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\Cpu.per"
+    LogicalPath="Config1.4PPC70_0702_20B.Cpu.per"
+    Type="File"
+    LastWriteTime="132046963360000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\IoMap.iom"
+    LogicalPath="Config1.4PPC70_0702_20B.IoMap.iom"
+    Type="File"
+    LastWriteTime="132562093660990464"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\PvMap.vvm"
+    LogicalPath="Config1.4PPC70_0702_20B.PvMap.vvm"
+    Type="File"
+    LastWriteTime="131643532000000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\Connectivity\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_20B.Connectivity"
+    Type="Package"
+    LastWriteTime="131643532000000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\Connectivity\OpcUA\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_20B.Connectivity.OpcUA"
+    Type="Package"
+    LastWriteTime="131643532000000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\TextSystem\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_20B.TextSystem"
+    Type="Package"
+    LastWriteTime="131643532000000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\UnitSystem\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_20B.UnitSystem"
+    Type="Package"
+    LastWriteTime="131643532000000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\AccessAndSecurity\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_20B.AccessAndSecurity"
+    Type="Package"
+    LastWriteTime="131643532000000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\AccessAndSecurity\UserRoleSystem\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_20B.AccessAndSecurity.UserRoleSystem"
+    Type="Package"
+    LastWriteTime="131643532000000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\AccessAndSecurity\UserRoleSystem\Role.role"
+    LogicalPath="Config1.4PPC70_0702_20B.AccessAndSecurity.UserRoleSystem.Role.role"
+    Type="File"
+    LastWriteTime="131643532000000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\AccessAndSecurity\UserRoleSystem\User.user"
+    LogicalPath="Config1.4PPC70_0702_20B.AccessAndSecurity.UserRoleSystem.User.user"
+    Type="File"
+    LastWriteTime="131643532000000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\AccessAndSecurity\CertificateStore\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_20B.AccessAndSecurity.CertificateStore"
+    Type="Package"
+    LastWriteTime="131643532000000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\AccessAndSecurity\CertificateStore\OwnCertificates\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_20B.AccessAndSecurity.CertificateStore.OwnCertificates"
+    Type="Package"
+    LastWriteTime="131643532000000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\AccessAndSecurity\CertificateStore\OwnCertificates\Certificates\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_20B.AccessAndSecurity.CertificateStore.OwnCertificates.Certificates"
+    Type="Package"
+    LastWriteTime="131643532000000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\AccessAndSecurity\CertificateStore\OwnCertificates\PrivateKeys\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_20B.AccessAndSecurity.CertificateStore.OwnCertificates.PrivateKeys"
+    Type="Package"
+    LastWriteTime="131643532000000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_20B.AccessAndSecurity.CertificateStore.ThirdPartyCertificates"
+    Type="Package"
+    LastWriteTime="131643532000000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\SoftwareCertificates\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_20B.AccessAndSecurity.CertificateStore.ThirdPartyCertificates.SoftwareCertificates"
+    Type="Package"
+    LastWriteTime="131643532000000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\AccessAndSecurity\CertificateStore\CertificateRevocationLists\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_20B.AccessAndSecurity.CertificateStore.CertificateRevocationLists"
+    Type="Package"
+    LastWriteTime="131643532000000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\AccessAndSecurity\CertificateStore\CertificateSigningRequests\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_20B.AccessAndSecurity.CertificateStore.CertificateSigningRequests"
+    Type="Package"
+    LastWriteTime="131643532000000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\AccessAndSecurity\TransportLayerSecurity\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_20B.AccessAndSecurity.TransportLayerSecurity"
+    Type="Package"
+    LastWriteTime="131643532000000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\mappControl\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_20B.mappControl"
+    Type="Package"
+    LastWriteTime="131643532000000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\mappServices\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_20B.mappServices"
+    Type="Package"
+    LastWriteTime="131646946200000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\mappServices\Config.mprecipexml"
+    LogicalPath="Config1.4PPC70_0702_20B.mappServices.Config.mprecipexml"
+    Type="File"
+    LastWriteTime="131646947040000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\mappServices\Config_1.mprecipexml"
+    LogicalPath="Config1.4PPC70_0702_20B.mappServices.Config_1.mprecipexml"
+    Type="File"
+    LastWriteTime="131646947060000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\VC\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_20B.VC"
+    Type="Package"
+    LastWriteTime="131643532020000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\VC\4PPC70_0702_20B.dis"
+    LogicalPath="Config1.4PPC70_0702_20B.VC.4PPC70_0702_20B.dis"
+    Type="File"
+    LastWriteTime="131643532020000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\Motion\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_20B.Motion"
+    Type="Package"
+    LastWriteTime="132809230280158864" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\Motion\Acp10cfg.ncc"
+    LogicalPath="Config1.4PPC70_0702_20B.Motion.Acp10cfg.ncc"
+    Type="File"
+    LastWriteTime="131643647080000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\Motion\Acp10map.ncm"
+    LogicalPath="Config1.4PPC70_0702_20B.Motion.Acp10map.ncm"
+    Type="File"
+    LastWriteTime="131982433320000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\Motion\Acp10sys.br"
+    LogicalPath="Config1.4PPC70_0702_20B.Motion.Acp10sys.br"
+    Type="File"
+    LastWriteTime="132809230281046502"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\SafeLOGIC-1.swt"
+    LogicalPath="Config1.4PPC70_0702_20B.SafeLOGIC-1.swt"
+    Type="File"
+    LastWriteTime="132475572020000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\ExternalHardware\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_20B.ExternalHardware"
+    Type="Package"
+    LastWriteTime="132259618500000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\ExternalHardware\WV1766BR.ext"
+    LogicalPath="Config1.4PPC70_0702_20B.ExternalHardware.WV1766BR.ext"
+    Type="File"
+    LastWriteTime="132259617520000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\4PPC70_0702_20B\ExternalHardware\ExternalHardwareDevices.xml"
+    LogicalPath="Config1.4PPC70_0702_20B.ExternalHardware.ExternalHardwareDevices.xml"
+    Type="File"
+    LastWriteTime="132259618500000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_DokoncovaciaStanica\Physical\Config1\Hardware.jpg"
+    LogicalPath="Config1.Hardware.jpg"
+    Type="File"
+    LastWriteTime="132809231979371562"
+    Private="false" />
+</Objects>

@@ -1,0 +1,86 @@
+VAR
+	diMeranie_PoruchaOtacRotora : BOOL;
+	diValcovanie_PoruchaOtacRotora : BOOL;
+	diStol_PoruchaOtacStola : BOOL;
+	diStol_TeplotaMotoraOK : BOOL;
+	diStol_NaliatokOdstrihnuty : BOOL;
+	diPoruchaNapajaniaSERVO1 : BOOL;
+	diHydraulika_PoruchaCerpadla : BOOL;
+	diHydraulika_HladinaOlejaOK : BOOL;
+	diHydraulika_TeplotaOlejaOK : BOOL;
+	diBZ1_DvereZavrete : BOOL;
+	diBZ2_DvereZavrete : BOOL;
+	diBZ3_DvereZavrete : BOOL;
+	diBZ4_DvereZavrete : BOOL;
+	diBZ5_DvereZavrete : BOOL;
+	diStavReleKA100_KA101 : BOOL;
+	diStavReleKA102_KA103 : BOOL;
+	diStavReleKA104_KA105 : BOOL;
+	diStav_PrivodVzduchuKanalA : BOOL;
+	diStav_PrivodVzduchuKanalB : BOOL;
+	diBZ6_DvereZavrete : BOOL;
+	diHlavnyPrivodVzduchu_TlakOK : BOOL; (*TLK-1*)
+	diHydraulika_Stav_FilterZaneseny : BOOL;
+	diTlacitko_RotorOK : BOOL;
+	diTlacitko_RotorNG : BOOL;
+	diStol_SnimacPolohyStola : BOOL; (*IS-1*)
+	diRazenie_ZdvihSpodnaPoloha : BOOL; (*IS-3*)
+	diRazenie_PritomnostRotora : BOOL; (*OS-3*)
+	diRazenie_ZdvihHornaPoloha : BOOL; (*OS-2*)
+	diValcovanie_HornyLimitSnimac : BOOL; (*OS-14*)
+	diValcovanie_SpodnyLimitSnimac : BOOL; (*OS-15*)
+	diValcovanie_PritomnostRotora : BOOL; (*OS-4*)
+	diValcovanie_GriperOtvoreny : BOOL; (*MS-5.1*)
+	diValcovanie_GriperZatvoreny : BOOL; (*MS-5.2*)
+	diValcovanie_HladinaOlejaOK : BOOL;
+	diValcovanie_ZdvihHornaPoloha : BOOL; (*MS-4.2*)
+	diValcovanie_ZdvihSpodnaPoloha : BOOL; (*MS-4.1*)
+	diValcovanie_PritomnostNastroja : BOOL;
+	diValc2_TlakPritlaku_OK : BOOL;
+	diValc2_PritomnostRotora : BOOL;
+	diValc2_SpomalenieZdvihu : BOOL;
+	diValc2_PritlakZasunuty : BOOL;
+	diValc2_PritlakVysunuty : BOOL;
+	diValc2_ZdvihSpodnyLimit : BOOL;
+	diValc2_ZdvihHornyLimit : BOOL;
+	diValc2_ZdvihRotoraZasunuty : BOOL;
+	diValc2_PorMotoraOtacania : BOOL;
+	diValc2_OdbrzdOtacNastrojaRuka : BOOL;
+	diValc2_OdbrzdOtacNastrojaMenic : BOOL;
+	diValc2_SnimacOtacaniaNastroja : BOOL;
+	diValc2_PorNapajaniaServa : BOOL;
+	diMeranie_ZdvihSpodnaPoloha : BOOL; (*MS-6*)
+	diMeranie_ZdvihHornaPoloha : BOOL; (*OS-5*)
+	diMeranie_PritomnostRotora : BOOL; (*OS-6*)
+	diMeranie_Osciloskop_Stav_OK : BOOL;
+	diMeranie_Osciloskop_Stav_NG : BOOL;
+	diStol_PritomnostRotoraVstup : BOOL; (*OS-12*)
+	diStol_PritomnostRotoraVystup : BOOL; (*OS-13*)
+	diVstupManipul_ZasunutyHore : BOOL; (*MS-7.1*)
+	diVstupManipul_VysunutyDole : BOOL; (*MS-7.2*)
+	diVstupManipul_PrednyLimitSnimac : BOOL; (*OS-7*)
+	diVstupManipul_ZadnyLimitSnimac : BOOL; (*OS-8*)
+	diVstupManipul_GriperOtvoreny : BOOL; (*MS-8.1*)
+	diVstupManipul_GriperZatvoreny : BOOL; (*MS-8.2*)
+	diVstupManipul_ZdvihStredPoloha : BOOL; (*MS-7.3*)
+	diVstupManipul_PritomnostNGKusu : BOOL;
+	diVstupManipul_SpodSnimacNG_Kusu : BOOL;
+	diVstupManipul_HornSnimacNG_Kusu : BOOL;
+	diVystupManipul_ZasunutyHore : BOOL; (*MS-9.1*)
+	diVystupManipul_ZdvihStredPoloha : BOOL; (*MS-9.3*)
+	diVystupManipul_ZadnyLimSnimac : BOOL; (*OS-10*)
+	diVystupManipul_PrednyLimSnimac : BOOL; (*OS-9*)
+	diVystupManipul_GriperOtvoreny : BOOL; (*MS-10.1*)
+	diVystupManipul_GriperZatvoreny : BOOL; (*MS-10.2*)
+	diVystupManipul_VysunutyDole : BOOL; (*MS-9.2*)
+	diVystDoprOK_SnimacZaplnTrate : BOOL; (*IS-5*)
+	diVystDoprNG_SnimacZaplnTrate : BOOL; (*IS-6*)
+	diVystDopr_OdsuvacZasunuty : BOOL; (*MS-12.2*)
+	diVystDopr_OdsuvacVysunuty : BOOL; (*MS-12.1*)
+	diVstupDopr_PritomnostRotora : BOOL; (*IS-4*)
+	diOddelovac_PoziciaNavazanie : BOOL; (*MS-11.1*)
+	diOddelovac_PoziciaVyvazanie : BOOL; (*MS-11.2*)
+	diOddelovac_PritomnostRotora : BOOL; (*OS-11*)
+	diVstupDopr_ZdvihRotora_HORE : BOOL;
+	diVstupDopr_ZdvihRotora_DOLE : BOOL;
+END_VAR

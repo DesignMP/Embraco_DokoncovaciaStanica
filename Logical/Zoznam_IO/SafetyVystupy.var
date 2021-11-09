@@ -1,0 +1,5 @@
+VAR
+	soMotory : BOOL; (*relé KA100,KA101*)
+	soVystupy : BOOL; (*relé KA102,KA103*)
+	soKomunikacia_StavCS : BOOL; (*relé KA104,KA105*)
+END_VAR

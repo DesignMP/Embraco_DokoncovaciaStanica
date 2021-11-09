@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.3.8.58 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="StavVnutornehoValcovania">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="4"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="220717" Value="Vnútorné valcovanie - OFF"/>
+    <Text ID="220718" Value="Vnútorné valcovanie - ON"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="220717" Value="Vnútorné valcovanie - OFF"/>
+    <Text ID="220718" Value="Vnútorné valcovanie - ON"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="220717" Value="0"/>
+    <Index ID="220718" Value="1"/>
+  </IndexMap>
+</TextGroup>

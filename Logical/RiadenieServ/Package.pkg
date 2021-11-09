@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.3.8.58 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package" Description="Vstupny manipulator">VstupnyManipulator</Object>
+    <Object Type="Package" Description="Vystupny manipulator">VystupnyManipulator</Object>
+    <Object Type="Package" Description="Zdvih valcovacky_valcovanie 1">ZdvihValcovacky</Object>
+    <Object Type="Package" Description="Zdvih rotora_valcovanie 2">ZdvihRotora</Object>
+    <Object Type="DataObject" Language="Ett">acp10etxen</Object>
+    <Object Type="Program" Language="IEC">Serva_PriradenieVstupov</Object>
+    <Object Type="Program" Language="IEC">RiadenieServ</Object>
+  </Objects>
+</Package>

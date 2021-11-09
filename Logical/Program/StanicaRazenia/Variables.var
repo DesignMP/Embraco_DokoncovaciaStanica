@@ -1,0 +1,11 @@
+VAR
+	SC_OvlZdvihu : SequenceControlTyp;
+	Rotor_ZDVIHNI : BOOL;
+	Rotor_POLOZ : BOOL;
+	Rotor_POLOZ_CasOFF : BOOL;
+	RR_Rotor_ZDVIHNI : BOOL;
+	CasRazenia : TIME;
+	Strihanie_StavBUSY : BOOL;
+	PrazdnaPozicia : BOOL;
+	Zdvih_Napolohovany : BOOL;
+END_VAR

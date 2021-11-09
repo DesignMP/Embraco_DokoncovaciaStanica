@@ -1,0 +1,32 @@
+<BuildOptions>
+  <BuildOption>
+    <SourceFile Value="D:/Projekty BER/Embraco_DokoncovaciaStanica/Physical/Config1/4PPC70_0702_20B/Cpu.sw" />
+    <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
+    <Xml>
+      <Task Name="RychleDeje" Source="Program.RychleDeje.prg" />
+      <Task Name="VstupnyMan" Source="Program.VstupnyManipulator.prg" />
+      <Task Name="RiadenieSe" Source="RiadenieServ.RiadenieServ.prg" />
+      <Task Name="Serva_Prir" Source="RiadenieServ.Serva_PriradenieVstupov.prg" />
+      <Task Name="StanicaVa1" Source="Program.StanicaVonkajsiehoValcovania.prg" />
+      <Task Name="StanicaStr" Source="Program.StanicaStrihania.prg" />
+      <Task Name="StanicaVal" Source="Program.StanicaVnutornehoValcovania.prg" />
+      <Task Name="StanicaMer" Source="Program.StanicaMerania.prg" />
+      <Task Name="RiadenieMe" Source="RiadenieMenicov.RiadenieMenicov.prg" />
+      <Task Name="Blikanie10" Source="Blikace.Blikanie10ms.prg" />
+      <Task Name="Blikanie1" Source="Blikace.Blikanie50ms.prg" />
+      <Task Name="OtocnyStol" Source="Program.OtocnyStol.prg" />
+      <Task Name="Blikanie20" Source="Blikace.Blikanie200ms.prg" />
+      <Task Name="ZdvihRotor" Source="Program.ZdvihRotora.prg" />
+      <Task Name="Blikanie50" Source="Blikace.Blikanie500ms.prg" />
+      <Task Name="Blikanie1s" Source="Blikace.Blikanie1s.prg" />
+      <Task Name="Blikanie5s" Source="Blikace.Blikanie5s.prg" />
+      <Task Name="VystupnyOd" Source="Program.VystupnyOdsuvac.prg" />
+      <Task Name="StanicaRaz" Source="Program.StanicaRazenia.prg" />
+      <Task Name="VystupnyMa" Source="Program.VystupnyManipulator.prg" />
+      <Task Name="Oddelovac" Source="Program.Oddelovac.prg" />
+      <Task Name="Main" Source="Program.Main.prg" />
+      <Task Name="Komunikaci" Source="Komunikacia.KOM_HlavnaLinka.prg" />
+      <Task Name="Poruchy_Si" Source="Program.Poruchy_Signalizacie.prg" />
+    </Xml>
+  </BuildOption>
+</BuildOptions>

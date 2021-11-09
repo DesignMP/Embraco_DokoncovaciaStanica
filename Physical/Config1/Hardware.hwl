@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?AutomationStudio FileVersion="4.9"?>
+<BR.AS.HardwareTopology>
+  <TimeStamps>
+    <TimeStamp LogicalPath="Config1.Hardware.hw" LastWriteTime="11/09/2021 10:19:40" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="4PPC70_0702_20B" Type="4PPC70.0702-20B" X="100" Y="100" />
+    <Module Name="X20BB80a" Type="X20BB80" X="344" Y="100" />
+    <Module Name="X20BM33" Type="X20BM33" X="382" Y="100" />
+    <Module Name="AB1_SafetyMaster" Type="X20SLX806" X="382" Y="100" />
+    <Module Name="X20TB52a" Type="X20TB52" X="395" Y="126" />
+    <Module Name="X20TB52" Type="X20TB52" X="382" Y="126" />
+    <Module Name="X20BM13" Type="X20BM13" X="382" Y="100" />
+    <Module Name="AB2_SafetyInputs" Type="X20SI8110" X="382" Y="100" />
+    <Module Name="X20TB52b" Type="X20TB52" X="382" Y="126" />
+    <Module Name="X20BM11" Type="X20BM11" X="382" Y="100" />
+    <Module Name="AB3_16DI" Type="X20DIF371" X="382" Y="100" />
+    <Module Name="X20TB1F" Type="X20TB1F" X="382" Y="100" />
+    <Module Name="X20BM11a" Type="X20BM11" X="382" Y="100" />
+    <Module Name="AB4_16DI" Type="X20DIF371" X="382" Y="100" />
+    <Module Name="X20TB1F1" Type="X20TB1F" X="382" Y="100" />
+    <Module Name="X20BM11b" Type="X20BM11" X="382" Y="100" />
+    <Module Name="AB5_16DO" Type="X20DOF322" X="382" Y="100" />
+    <Module Name="X20TB1F2" Type="X20TB1F" X="382" Y="100" />
+    <Module Name="X20BM11e" Type="X20BM11" X="382" Y="100" />
+    <Module Name="AB6_16DO" Type="X20DOF322" X="382" Y="100" />
+    <Module Name="X20TB1F4" Type="X20TB1F" X="382" Y="100" />
+    <Module Name="X20BM01" Type="X20BM01" X="382" Y="100" />
+    <Module Name="NapajanieZonaCS" Type="X20PS2100" X="382" Y="100" />
+    <Module Name="X20TB12a" Type="X20TB12" X="382" Y="100" />
+    <Module Name="X20BM11c" Type="X20BM11" X="382" Y="100" />
+    <Module Name="AB7_16DO" Type="X20DOF322" X="382" Y="100" />
+    <Module Name="X20TB1F3" Type="X20TB1F" X="382" Y="100" />
+    <Module Name="X20BM11d" Type="X20BM11" X="382" Y="100" />
+    <Module Name="AB8_X2X_Sender" Type="X20BT9400" X="382" Y="100" />
+    <Module Name="X20TB12b" Type="X20TB12" X="382" Y="100" />
+    <Module Name="X20PS9400" Type="X20PS9400" X="369" Y="100" />
+    <Module Name="X20TB12c" Type="X20TB12" X="369" Y="127" />
+    <Module Name="X20BC0083" Type="X20BC0083" X="344" Y="100" />
+    <Module Name="MerStanica_OtacanieRotora" Type="8I74xxxxxxx.01P-1" X="406" Y="356" />
+    <Module Name="ValcStanica1_OtacanieRotora" Type="8I74xxxxxxx.01P-1" X="499" Y="356" />
+    <Module Name="Servo_1" Type="8EIxxxMxT1x.xxxx-1" X="703" Y="356" />
+    <Module Name="DB1_16DI" Type="X67DI1371.L08" X="620" Y="100" />
+    <Module Name="DB2_16DI" Type="X67DI1371.L08" X="916" Y="100" />
+    <Module Name="DB3_8DI" Type="X67DI1371" X="1198" Y="100" />
+    <Module Name="DB4_8DI" Type="X67DI1371" X="1310" Y="100" />
+    <Module Name="DB5_8DI" Type="X67DI1371" X="1419" Y="100" />
+    <Module Name="8LVA23.B8015S000-0" Type="8LVA23.B8015S000-0" X="749" Y="713" />
+    <Module Name="8LVA23.B8015S000-0a" Type="8LVA23.B8015S000-0" X="846" Y="883" />
+    <Module Name="8LVA23.B8015S200-0" Type="8LVA23.B8015S200-0" X="992" Y="629" />
+    <Module Name="VT1" Type="FBE.DokoncovaciaStanica_VT1" X="1661" Y="356" />
+    <Module Name="ValcovaciaStanica2_OtacanieNastroja" Type="8I74xxxxxxx.01P-1" X="594" Y="356" />
+    <Module Name="StanicaValcovania2" Type="8EI013HWS10.xxxx-1" X="1318" Y="356" />
+    <Module Name="8LSA57.DA030S200-3" Type="8LSA57.DA030S200-3" X="1435" Y="629" />
+    <Module Name="DB6_16DI/DO" Type="X67DM1321.L08" X="1061" Y="100" />
+    <Module Name="X67DI1371" Type="X67DI1371" X="715" Y="100" />
+    <Module Name="X67PS1300" Type="X67PS1300" X="819" Y="100" />
+  </Modules>
+  <Links>
+    <Link From="4PPC70_0702_20B" To="X20BC0083" FromPort="IF1" ToPort="PLK2" IsRoutedByUser="False">
+      <Point X="145.299988" Y="202" />
+      <Point X="145.299988" Y="202" />
+      <Point X="145.299988" Y="207" />
+      <Point X="145.299988" Y="215" />
+      <Point X="245" Y="215" />
+      <Point X="245" Y="190" />
+      <Point X="343.5" Y="190" />
+      <Point X="358.5" Y="190" />
+      <Point X="358.5" Y="190" />
+    </Link>
+    <Link From="8LSA57.DA030S200-3" To="StanicaValcovania2" FromPort="EC" ToPort="EC1" IsRoutedByUser="False">
+      <Point X="1456.5" Y="635.1" />
+      <Point X="1456.5" Y="635.1" />
+      <Point X="1456.5" Y="628.1" />
+      <Point X="1456.5" Y="395" />
+      <Point X="1365" Y="395" />
+      <Point X="1343" Y="395" />
+      <Point X="1343" Y="395" />
+    </Link>
+    <Link From="8LSA57.DA030S200-3" To="StanicaValcovania2" FromPort="MT" ToPort="MT1" IsRoutedByUser="False">
+      <Point X="1484.5" Y="635.1" />
+      <Point X="1484.5" Y="635.1" />
+      <Point X="1484.5" Y="628.1" />
+      <Point X="1484.5" Y="404.3" />
+      <Point X="1364.6" Y="404.3" />
+      <Point X="1344.6" Y="404.3" />
+      <Point X="1344.6" Y="404.3" />
+    </Link>
+    <Link From="8LVA23.B8015S000-0" To="Servo_1" FromPort="EC" ToPort="EC1" IsRoutedByUser="False">
+      <Point X="770.5" Y="719.1" />
+      <Point X="770.5" Y="719.1" />
+      <Point X="770.5" Y="712.1" />
+      <Point X="770.5" Y="493" />
+      <Point X="750" Y="493" />
+      <Point X="728" Y="493" />
+      <Point X="728" Y="493" />
+    </Link>
+    <Link From="8LVA23.B8015S000-0" To="Servo_1" FromPort="MT" ToPort="MT1" IsRoutedByUser="False">
+      <Point X="798.5" Y="719.1" />
+      <Point X="798.5" Y="719.1" />
+      <Point X="798.5" Y="712.1" />
+      <Point X="798.5" Y="502.3" />
+      <Point X="749.6" Y="502.3" />
+      <Point X="729.6" Y="502.3" />
+      <Point X="729.6" Y="502.3" />
+    </Link>
+    <Link From="8LVA23.B8015S000-0a" To="Servo_1" FromPort="EC" ToPort="EC2" IsRoutedByUser="False">
+      <Point X="867.5" Y="889.1" />
+      <Point X="867.5" Y="889.1" />
+      <Point X="867.5" Y="882.1" />
+      <Point X="867.5" Y="444" />
+      <Point X="750" Y="444" />
+      <Point X="728" Y="444" />
+      <Point X="728" Y="444" />
+    </Link>
+    <Link From="8LVA23.B8015S000-0a" To="Servo_1" FromPort="MT" ToPort="MT2" IsRoutedByUser="False">
+      <Point X="895.5" Y="889.1" />
+      <Point X="895.5" Y="889.1" />
+      <Point X="895.5" Y="882.1" />
+      <Point X="895.5" Y="453.3" />
+      <Point X="749.6" Y="453.3" />
+      <Point X="729.6" Y="453.3" />
+      <Point X="729.6" Y="453.3" />
+    </Link>
+    <Link From="8LVA23.B8015S200-0" To="Servo_1" FromPort="EC" ToPort="EC3" IsRoutedByUser="False">
+      <Point X="1013.5" Y="635.1" />
+      <Point X="1013.5" Y="635.1" />
+      <Point X="1013.5" Y="628.1" />
+      <Point X="1013.5" Y="395" />
+      <Point X="750" Y="395" />
+      <Point X="728" Y="395" />
+      <Point X="728" Y="395" />
+    </Link>
+    <Link From="8LVA23.B8015S200-0" To="Servo_1" FromPort="MT" ToPort="MT3" IsRoutedByUser="False">
+      <Point X="1041.5" Y="635.1" />
+      <Point X="1041.5" Y="635.1" />
+      <Point X="1041.5" Y="628.1" />
+      <Point X="1041.5" Y="404.3" />
+      <Point X="749.6" Y="404.3" />
+      <Point X="729.6" Y="404.3" />
+      <Point X="729.6" Y="404.3" />
+    </Link>
+    <Link From="AB8_X2X_Sender" To="DB1_16DI" FromPort="X2X1" ToPort="X2X1" IsRoutedByUser="False">
+      <Point X="389" Y="144" />
+      <Point X="389" Y="144" />
+      <Point X="389" Y="99" />
+      <Point X="389" Y="95" />
+      <Point X="415" Y="95" />
+      <Point X="415" Y="112" />
+      <Point X="619" Y="112" />
+      <Point X="630" Y="112" />
+      <Point X="630" Y="112" />
+    </Link>
+    <Link From="DB1_16DI" To="X67DI1371" FromPort="X2X2" ToPort="X2X1" IsRoutedByUser="False">
+      <Point X="662" Y="112" />
+      <Point X="662" Y="112" />
+      <Point X="674" Y="112" />
+      <Point X="714.699951" Y="112" />
+      <Point X="725.699951" Y="112" />
+      <Point X="725.699951" Y="112" />
+    </Link>
+    <Link From="DB2_16DI" To="X67PS1300" FromPort="X2X1" ToPort="X2X2" IsRoutedByUser="False">
+      <Point X="861" Y="112" />
+      <Point X="861" Y="112" />
+      <Point X="873" Y="112" />
+      <Point X="915" Y="112" />
+      <Point X="926" Y="112" />
+      <Point X="926" Y="112" />
+    </Link>
+    <Link From="DB2_16DI" To="DB6_16DI/DO" FromPort="X2X2" ToPort="X2X1" IsRoutedByUser="False">
+      <Point X="958" Y="112" />
+      <Point X="958" Y="112" />
+      <Point X="970" Y="112" />
+      <Point X="1060" Y="112" />
+      <Point X="1071" Y="112" />
+      <Point X="1071" Y="112" />
+    </Link>
+    <Link From="DB3_8DI" To="DB6_16DI/DO" FromPort="X2X1" ToPort="X2X2" IsRoutedByUser="False">
+      <Point X="1208" Y="112" />
+      <Point X="1208" Y="112" />
+      <Point X="1197" Y="112" />
+      <Point X="1115" Y="112" />
+      <Point X="1103" Y="112" />
+      <Point X="1103" Y="112" />
+    </Link>
+    <Link From="DB3_8DI" To="DB4_8DI" FromPort="X2X2" ToPort="X2X1" IsRoutedByUser="False">
+      <Point X="1240.99707" Y="112" />
+      <Point X="1240.99707" Y="112" />
+      <Point X="1252.99707" Y="112" />
+      <Point X="1309.99707" Y="112" />
+      <Point X="1320.99707" Y="112" />
+      <Point X="1320.99707" Y="112" />
+    </Link>
+    <Link From="DB4_8DI" To="DB5_8DI" FromPort="X2X2" ToPort="X2X1" IsRoutedByUser="False">
+      <Point X="1352.99707" Y="112" />
+      <Point X="1352.99707" Y="112" />
+      <Point X="1364.99707" Y="112" />
+      <Point X="1418.99707" Y="112" />
+      <Point X="1429.99707" Y="112" />
+      <Point X="1429.99707" Y="112" />
+    </Link>
+    <Link From="MerStanica_OtacanieRotora" To="X20BC0083" FromPort="PLK1" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="414" Y="515" />
+      <Point X="414" Y="515" />
+      <Point X="414" Y="557" />
+      <Point X="414" Y="565" />
+      <Point X="335" Y="565" />
+      <Point X="335" Y="175" />
+      <Point X="343" Y="175" />
+      <Point X="358" Y="175" />
+      <Point X="358" Y="175" />
+    </Link>
+    <Link From="MerStanica_OtacanieRotora" To="ValcStanica1_OtacanieRotora" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="426" Y="515" />
+      <Point X="426" Y="515" />
+      <Point X="426" Y="557" />
+      <Point X="426" Y="565" />
+      <Point X="507" Y="565" />
+      <Point X="507" Y="557" />
+      <Point X="507" Y="515" />
+      <Point X="507" Y="515" />
+    </Link>
+    <Link From="Servo_1" To="ValcovaciaStanica2_OtacanieNastroja" FromPort="PLK1" ToPort="PLK2" IsRoutedByUser="False">
+      <Point X="710.7" Y="366.5" />
+      <Point X="710.7" Y="366.5" />
+      <Point X="702.7" Y="366.5" />
+      <Point X="695" Y="366.5" />
+      <Point X="695" Y="565" />
+      <Point X="614" Y="565" />
+      <Point X="614" Y="557" />
+      <Point X="614" Y="515" />
+      <Point X="614" Y="515" />
+    </Link>
+    <Link From="Servo_1" To="StanicaValcovania2" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="719.899963" Y="366.5" />
+      <Point X="719.899963" Y="366.5" />
+      <Point X="719.899963" Y="355.5" />
+      <Point X="719.899963" Y="345" />
+      <Point X="765" Y="345" />
+      <Point X="765" Y="366.5" />
+      <Point X="1317.99707" Y="366.5" />
+      <Point X="1325.99707" Y="366.5" />
+      <Point X="1325.99707" Y="366.5" />
+    </Link>
+    <Link From="StanicaValcovania2" To="VT1" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="1334.39709" Y="366.5" />
+      <Point X="1334.39709" Y="366.5" />
+      <Point X="1334.39709" Y="355.5" />
+      <Point X="1334.39709" Y="345" />
+      <Point X="1375" Y="345" />
+      <Point X="1375" Y="415" />
+      <Point X="1707.45349" Y="415" />
+      <Point X="1707.45349" Y="407" />
+      <Point X="1707.45349" Y="400" />
+      <Point X="1707.45349" Y="400" />
+    </Link>
+    <Link From="ValcStanica1_OtacanieRotora" To="ValcovaciaStanica2_OtacanieNastroja" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="519" Y="515" />
+      <Point X="519" Y="515" />
+      <Point X="519" Y="557" />
+      <Point X="519" Y="565" />
+      <Point X="602.318359" Y="565" />
+      <Point X="602.318359" Y="557" />
+      <Point X="602.318359" Y="515" />
+      <Point X="602.318359" Y="515" />
+    </Link>
+    <Link From="X67DI1371" To="X67PS1300" FromPort="X2X2" ToPort="X2X1" IsRoutedByUser="False">
+      <Point X="757.699951" Y="112" />
+      <Point X="757.699951" Y="112" />
+      <Point X="769.699951" Y="112" />
+      <Point X="818" Y="112" />
+      <Point X="829" Y="112" />
+      <Point X="829" Y="112" />
+    </Link>
+  </Links>
+  <InfoElements>
+    <InfoElementText Id="Textbox_1" X="406" Y="309.5" Width="59" Height="21">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">Nod 2</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+    <InfoElementText Id="Textbox_2" X="328" Y="61.5" Width="61" Height="20">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">Nod 1</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+    <InfoElementText Id="Textbox_3" X="480" Y="310.5" Width="58" Height="20">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">Nod 3</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+    <InfoElementText Id="Textbox_4" X="703.8" Y="309.5" Width="64.89996" Height="20">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">Nod 4</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+    <InfoElementText Id="Textbox_5" X="1661.92676" Y="315.5" Width="61" Height="20">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">Nod 5</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+    <InfoElementText Id="Textbox_6" X="575.148438" Y="735.8587" Width="152" Height="47.5">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">Vstupny manipulator</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+    <InfoElementText Id="Textbox_7" X="659.578857" Y="919.5" Width="161" Height="48.5">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">Výstupny manipulator</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+    <InfoElementText Id="Textbox_8" X="1081.37891" Y="663.5" Width="152" Height="19">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">Zdvih valcovania</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+    <InfoElementText Id="Textbox_9" X="581.906738" Y="311" Width="58" Height="20">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">Nod 6</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+    <InfoElementText Id="Textbox_10" X="1306.49707" Y="317" Width="58" Height="20">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">Nod 7</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+    <InfoElementText Id="Textbox_11" X="1523.864" Y="663.5" Width="152" Height="19">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">Zdvih rotora</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+  </InfoElements>
+</BR.AS.HardwareTopology>

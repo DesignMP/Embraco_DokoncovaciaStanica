@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Dieses ist eine Automatisch erzeugtes XDD File -->
+<!-- Die Konfiguration fuer die, dieses XDD File erstellt wurde ist die folgende:
+Module Number 0 : Valve driver 4 valves(4)
+Module Number 1 : Valve driver 4 valves(4)
+Module Number 2 : Valve driver 4 valves(4)
+Module Number 3 : Valve driver 3 valves(3)
+-->
+<ISO15745ProfileContainer xmlns="http://www.ethernet-powerlink.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ethernet-powerlink.org schema\Powerlink_Main.xsd">
+ <ISO15745Profile>
+  <ProfileHeader>
+   <ProfileIdentification>EPL_Device_Profile</ProfileIdentification>
+   <ProfileRevision>1</ProfileRevision>
+   <ProfileName> </ProfileName>
+   <ProfileSource/>
+   <ProfileClassID>Device</ProfileClassID>
+   <ISO15745Reference>
+    <ISO15745Part>1</ISO15745Part>
+    <ISO15745Edition>1</ISO15745Edition>
+    <ProfileTechnology>Powerlink</ProfileTechnology>
+   </ISO15745Reference>
+   </ProfileHeader>
+    <ProfileBody xsi:type="ProfileBody_Device_Powerlink" fileName="DokoncovaciaStanica_VT1.xdd" fileCreator="ulfhbuse" fileCreationDate="2015-11-24" fileModifiedBy="XDD generation Tool" fileModificationDate="2018-03-01" fileVersion="01.09" supportedLanguages="en de">
+     <DeviceIdentity>
+      <vendorName>Aventics GmbH</vendorName>
+      <vendorID>0x000001B2</vendorID>
+      <deviceFamily>
+       <label lang="en">Valvesystem</label>
+       <label lang="de">Ventilsystem</label>
+      </deviceFamily>
+      <productFamily>AES</productFamily>
+      <productName>VT1</productName>
+      <productID>0x188EE632</productID>
+      <productText>
+       <label lang="en">AV Valvesystem Aventics V01.28 XDD Generator</label>
+       <label lang="de">AV Ventilsystem Aventics V01.28 XDD Generator</label>
+      </productText>
+      <orderNumber>R412018226</orderNumber>
+      <version versionType="HW">3</version>
+      <version versionType="FW">11.13.09</version>
+      <version versionType="SW">01.28</version>
+     </DeviceIdentity>
+     <DeviceManager>
+     </DeviceManager>
+     <DeviceFunction>
+      <capabilities>
+       <!-- The characteristicsList is a list of key-value pairs.  -->
+       <characteristicsList>
+        <characteristic>
+         <characteristicName>
+          <label lang="en"/>
+         </characteristicName>
+         <characteristicContent>
+          <label lang="en"/>
+         </characteristicContent>
+        </characteristic>
+       </characteristicsList>
+      </capabilities>
+     </DeviceFunction>
+     <ApplicationProcess>
+      <dataTypeList>
+     <struct name="Valve_Module1" uniqueID="ID_V_Mod1">
+      <varDeclaration name="Valve_1_C14" uniqueID="ID_V_Mod1.BOOL0">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Valve_1_C12" uniqueID="ID_V_Mod1.BOOL1">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Valve_2_C14" uniqueID="ID_V_Mod1.BOOL2">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Valve_2_C12" uniqueID="ID_V_Mod1.BOOL3">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Valve_3_C14" uniqueID="ID_V_Mod1.BOOL4">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Valve_3_C12" uniqueID="ID_V_Mod1.BOOL5">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Valve_4_C14" uniqueID="ID_V_Mod1.BOOL6">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Valve_4_C12" uniqueID="ID_V_Mod1.BOOL7">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Res_V_M1_Byte1" uniqueID="ID_V_Mod1.Res1">
+       <BYTE/>
+      </varDeclaration>
+      <varDeclaration name="Res_V_M1_Byte2" uniqueID="ID_V_Mod1.Res2">
+       <BYTE/>
+      </varDeclaration>
+      <varDeclaration name="Res_V_M1_Byte3" uniqueID="ID_V_Mod1.Res3">
+       <BYTE/>
+      </varDeclaration>
+     </struct>
+     <struct name="Valve_Module2" uniqueID="ID_V_Mod2">
+      <varDeclaration name="Valve_5_C14" uniqueID="ID_V_Mod2.BOOL0">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Valve_5_C12" uniqueID="ID_V_Mod2.BOOL1">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Valve_6_C14" uniqueID="ID_V_Mod2.BOOL2">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Valve_6_C12" uniqueID="ID_V_Mod2.BOOL3">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Valve_7_C14" uniqueID="ID_V_Mod2.BOOL4">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Valve_7_C12" uniqueID="ID_V_Mod2.BOOL5">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Valve_8_C14" uniqueID="ID_V_Mod2.BOOL6">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Valve_8_C12" uniqueID="ID_V_Mod2.BOOL7">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Res_V_M2_Byte1" uniqueID="ID_V_Mod2.Res1">
+       <BYTE/>
+      </varDeclaration>
+      <varDeclaration name="Res_V_M2_Byte2" uniqueID="ID_V_Mod2.Res2">
+       <BYTE/>
+      </varDeclaration>
+      <varDeclaration name="Res_V_M2_Byte3" uniqueID="ID_V_Mod2.Res3">
+       <BYTE/>
+      </varDeclaration>
+     </struct>
+     <struct name="Valve_Module3" uniqueID="ID_V_Mod3">
+      <varDeclaration name="Valve_9_C14" uniqueID="ID_V_Mod3.BOOL0">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Valve_9_C12" uniqueID="ID_V_Mod3.BOOL1">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Valve_10_C14" uniqueID="ID_V_Mod3.BOOL2">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Valve_10_C12" uniqueID="ID_V_Mod3.BOOL3">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Valve_11_C14" uniqueID="ID_V_Mod3.BOOL4">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Valve_11_C12" uniqueID="ID_V_Mod3.BOOL5">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Valve_12_C14" uniqueID="ID_V_Mod3.BOOL6">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Valve_12_C12" uniqueID="ID_V_Mod3.BOOL7">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Res_V_M3_Byte1" uniqueID="ID_V_Mod3.Res1">
+       <BYTE/>
+      </varDeclaration>
+      <varDeclaration name="Res_V_M3_Byte2" uniqueID="ID_V_Mod3.Res2">
+       <BYTE/>
+      </varDeclaration>
+      <varDeclaration name="Res_V_M3_Byte3" uniqueID="ID_V_Mod3.Res3">
+       <BYTE/>
+      </varDeclaration>
+     </struct>
+     <struct name="Valve_Module4" uniqueID="ID_V_Mod4">
+      <varDeclaration name="Valve_13_C14" uniqueID="ID_V_Mod4.BOOL0">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Valve_13_C12" uniqueID="ID_V_Mod4.BOOL1">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Valve_14_C14" uniqueID="ID_V_Mod4.BOOL2">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Valve_14_C12" uniqueID="ID_V_Mod4.BOOL3">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Valve_15_C14" uniqueID="ID_V_Mod4.BOOL4">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Valve_15_C12" uniqueID="ID_V_Mod4.BOOL5">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Res_V_M4_Bit6" uniqueID="ID_V_Mod4.BOOL6">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Res_V_M4_Bit7" uniqueID="ID_V_Mod4.BOOL7">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Res_V_M4_Byte1" uniqueID="ID_V_Mod4.Res1">
+       <BYTE/>
+      </varDeclaration>
+      <varDeclaration name="Res_V_M4_Byte2" uniqueID="ID_V_Mod4.Res2">
+       <BYTE/>
+      </varDeclaration>
+      <varDeclaration name="Res_V_M4_Byte3" uniqueID="ID_V_Mod4.Res3">
+       <BYTE/>
+      </varDeclaration>
+     </struct>
+     <struct name="Diagnostic_Part1" uniqueID="ID_DIAG_Part1">
+      <varDeclaration name="UA_below_UA_ON" uniqueID="ID_DIAG_Part1.BOOL0">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="UA_below_UA_OFF" uniqueID="ID_DIAG_Part1.BOOL1">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Electronics_voltage_below_18V" uniqueID="ID_DIAG_Part1.BOOL2">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Electronics_voltage_below_10V" uniqueID="ID_DIAG_Part1.BOOL3">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Hardware_Error" uniqueID="ID_DIAG_Part1.BOOL4">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Res_Diag1_0" uniqueID="ID_DIAG_Part1.BOOL5">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Res_Diag1_1" uniqueID="ID_DIAG_Part1.BOOL6">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Res_Diag1_2" uniqueID="ID_DIAG_Part1.BOOL7">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Valve_backplane_warning" uniqueID="ID_DIAG_Part1.BOOL8">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Valve_backplane_error" uniqueID="ID_DIAG_Part1.BOOL9">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Valve_backplane_reinitialization" uniqueID="ID_DIAG_Part1.BOOL10">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Res_Diag1_3" uniqueID="ID_DIAG_Part1.BOOL11">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="IO_backplane_warning" uniqueID="ID_DIAG_Part1.BOOL12">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="IO_backplane_error" uniqueID="ID_DIAG_Part1.BOOL13">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="IO_backplane_reinitialization" uniqueID="ID_DIAG_Part1.BOOL14">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Res_Diag1_4" uniqueID="ID_DIAG_Part1.BOOL15">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_1" uniqueID="ID_DIAG_Part1.BOOL16">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_2" uniqueID="ID_DIAG_Part1.BOOL17">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_3" uniqueID="ID_DIAG_Part1.BOOL18">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_4" uniqueID="ID_DIAG_Part1.BOOL19">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_5" uniqueID="ID_DIAG_Part1.BOOL20">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_6" uniqueID="ID_DIAG_Part1.BOOL21">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_7" uniqueID="ID_DIAG_Part1.BOOL22">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_8" uniqueID="ID_DIAG_Part1.BOOL23">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_9" uniqueID="ID_DIAG_Part1.BOOL24">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_10" uniqueID="ID_DIAG_Part1.BOOL25">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_11" uniqueID="ID_DIAG_Part1.BOOL26">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_12" uniqueID="ID_DIAG_Part1.BOOL27">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_13" uniqueID="ID_DIAG_Part1.BOOL28">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_14" uniqueID="ID_DIAG_Part1.BOOL29">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_15" uniqueID="ID_DIAG_Part1.BOOL30">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_16" uniqueID="ID_DIAG_Part1.BOOL31">
+       <BOOL/>
+      </varDeclaration>
+     </struct>
+     <struct name="Diagnostic_Part2" uniqueID="ID_DIAG_Part2">
+      <varDeclaration name="Diagnosis_Module_17" uniqueID="ID_DIAG_Part2.BOOL0">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_18" uniqueID="ID_DIAG_Part2.BOOL1">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_19" uniqueID="ID_DIAG_Part2.BOOL2">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_20" uniqueID="ID_DIAG_Part2.BOOL3">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_21" uniqueID="ID_DIAG_Part2.BOOL4">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_22" uniqueID="ID_DIAG_Part2.BOOL5">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_23" uniqueID="ID_DIAG_Part2.BOOL6">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_24" uniqueID="ID_DIAG_Part2.BOOL7">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_25" uniqueID="ID_DIAG_Part2.BOOL8">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_26" uniqueID="ID_DIAG_Part2.BOOL9">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_27" uniqueID="ID_DIAG_Part2.BOOL10">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_28" uniqueID="ID_DIAG_Part2.BOOL11">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_29" uniqueID="ID_DIAG_Part2.BOOL12">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_30" uniqueID="ID_DIAG_Part2.BOOL13">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_31" uniqueID="ID_DIAG_Part2.BOOL14">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_32" uniqueID="ID_DIAG_Part2.BOOL15">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_33" uniqueID="ID_DIAG_Part2.BOOL16">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_34" uniqueID="ID_DIAG_Part2.BOOL17">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_35" uniqueID="ID_DIAG_Part2.BOOL18">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_36" uniqueID="ID_DIAG_Part2.BOOL19">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_37" uniqueID="ID_DIAG_Part2.BOOL20">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_38" uniqueID="ID_DIAG_Part2.BOOL21">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_39" uniqueID="ID_DIAG_Part2.BOOL22">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_40" uniqueID="ID_DIAG_Part2.BOOL23">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_41" uniqueID="ID_DIAG_Part2.BOOL24">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Diagnosis_Module_42" uniqueID="ID_DIAG_Part2.BOOL25">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Res_Diag2_0" uniqueID="ID_DIAG_Part2.BOOL26">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Res_Diag2_1" uniqueID="ID_DIAG_Part2.BOOL27">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Res_Diag2_2" uniqueID="ID_DIAG_Part2.BOOL28">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Res_Diag2_3" uniqueID="ID_DIAG_Part2.BOOL29">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Res_Diag2_4" uniqueID="ID_DIAG_Part2.BOOL30">
+       <BOOL/>
+      </varDeclaration>
+      <varDeclaration name="Res_Diag2_5" uniqueID="ID_DIAG_Part2.BOOL31">
+       <BOOL/>
+      </varDeclaration>
+     </struct>
+    </dataTypeList>
+    <parameterList>
+    <parameter uniqueID="ID_Valve_Mod1" access="write">
+     <label lang="en">Valve Module 1 </label>
+     <dataTypeIDRef uniqueIDRef="ID_V_Mod1"/>
+    </parameter>
+    <parameter uniqueID="ID_Valve_Mod2" access="write">
+     <label lang="en">Valve Module 2 </label>
+     <dataTypeIDRef uniqueIDRef="ID_V_Mod2"/>
+    </parameter>
+    <parameter uniqueID="ID_Valve_Mod3" access="write">
+     <label lang="en">Valve Module 3 </label>
+     <dataTypeIDRef uniqueIDRef="ID_V_Mod3"/>
+    </parameter>
+    <parameter uniqueID="ID_Valve_Mod4" access="write">
+     <label lang="en">Valve Module 4 </label>
+     <dataTypeIDRef uniqueIDRef="ID_V_Mod4"/>
+    </parameter>
+     <parameter uniqueID="ID_Diag_Part1_P" access="read">
+      <label lang="en">Diagnosis part 1</label>
+      <dataTypeIDRef uniqueIDRef="ID_DIAG_Part1"/>
+     </parameter>
+     <parameter uniqueID="ID_Diag_Part2_P" access="read">
+      <label lang="en">Diagnosis part 2</label>
+      <dataTypeIDRef uniqueIDRef="ID_DIAG_Part2"/>
+     </parameter>
+    </parameterList>
+   </ApplicationProcess>
+  </ProfileBody>
+ </ISO15745Profile>
+ <ISO15745Profile>
+  <ProfileHeader>
+   <ProfileIdentification>EPL comm net profile</ProfileIdentification>
+   <ProfileRevision>1</ProfileRevision>
+   <ProfileName/>
+   <ProfileSource/>
+   <ProfileClassID>CommunicationNetwork</ProfileClassID>
+   <ISO15745Reference>
+    <ISO15745Part>1</ISO15745Part>
+    <ISO15745Edition>1</ISO15745Edition>
+    <ProfileTechnology>Powerlink</ProfileTechnology>
+   </ISO15745Reference>
+  </ProfileHeader>
+  <ProfileBody xsi:type="ProfileBody_CommunicationNetwork_Powerlink" fileName="DokoncovaciaStanica_VT1.xdd" fileCreator="ulfhbuse" fileCreationDate="2015-11-24" fileModifiedBy="XDD generation Tool" fileModificationDate="2018-03-01" fileVersion="01.09">
+   <ApplicationLayers>
+    <identity>
+     <vendorID>0x000001B2</vendorID>
+    </identity>
+    <DataTypeList>
+     <defType dataType="0001">
+      <Boolean/>
+     </defType>
+     <defType dataType="0002">
+      <Integer8/>
+     </defType>
+     <defType dataType="0003">
+      <Integer16/>
+     </defType>
+     <defType dataType="0004">
+      <Integer32/>
+     </defType>
+     <defType dataType="0005">
+      <Unsigned8/>
+     </defType>
+     <defType dataType="0006">
+      <Unsigned16/>
+     </defType>
+     <defType dataType="0007">
+      <Unsigned32/>
+     </defType>
+     <defType dataType="0008">
+      <Real32/>
+     </defType>
+     <defType dataType="0009">
+      <Visible_String/>
+     </defType>
+     <defType dataType="0010">
+      <Integer24/>
+     </defType>
+     <defType dataType="0011">
+      <Real64/>
+     </defType>
+     <defType dataType="0012">
+      <Integer40/>
+     </defType>
+     <defType dataType="0013">
+      <Integer48/>
+     </defType>
+     <defType dataType="0014">
+      <Integer56/>
+     </defType>
+     <defType dataType="0015">
+      <Integer64/>
+     </defType>
+     <defType dataType="000A">
+      <Octet_String/>
+     </defType>
+     <defType dataType="000B">
+      <Unicode_String/>
+     </defType>
+     <defType dataType="000C">
+      <Time_of_Day/>
+     </defType>
+     <defType dataType="000D">
+      <Time_Diff/>
+     </defType>
+     <defType dataType="000F">
+      <Domain/>
+     </defType>
+     <defType dataType="0016">
+      <Unsigned24/>
+     </defType>
+     <defType dataType="0018">
+      <Unsigned40/>
+     </defType>
+     <defType dataType="0019">
+      <Unsigned48/>
+     </defType>
+     <defType dataType="001A">
+      <Unsigned56/>
+     </defType>
+     <defType dataType="001B">
+      <Unsigned64/>
+     </defType>
+     <defType dataType="0401">
+      <MAC_ADDRESS/>
+     </defType>
+     <defType dataType="0402">
+      <IP_ADDRESS/>
+     </defType>
+     <defType dataType="0403">
+      <NETTIME/>
+     </defType>
+    </DataTypeList>
+    <ObjectList>
+     <Object index="1000" name="NMT_DeviceType_U32" objectType="7" PDOmapping="no" accessType="const" dataType="0007" defaultValue="0x00800192"/>
+     <Object index="1001" name="ERR_ErrorRegister_U8" objectType="7" PDOmapping="optional" accessType="ro" dataType="0005" defaultValue="0x0"/>
+     <Object index="1006" name="NMT_CycleLen_U32" objectType="7" PDOmapping="no" accessType="rw" dataType="0007" defaultValue="1000" lowLimit="1000" highLimit="50000" objFlags="0004"/>
+     <Object index="1018" name="NMT_IdentityObject_REC" objectType="9" subNumber="5">
+      <SubObject subIndex="00" name="NumberOfEntries" objectType="7" accessType="const" dataType="0005" defaultValue="0x4" PDOmapping="no"/>
+      <SubObject subIndex="01" name="VendorId_U32" objectType="7" accessType="const" dataType="0007" defaultValue="0x000001B2" PDOmapping="no"/>
+      <SubObject subIndex="02" name="ProductCode_U32" objectType="7" accessType="const" dataType="0007" defaultValue="0x188EE632" PDOmapping="no"/>
+      <SubObject subIndex="03" name="RevisionNo_U32" objectType="7" accessType="const" dataType="0007" defaultValue="0x00000003" PDOmapping="no"/>
+      <SubObject subIndex="04" name="SerialNo_U32" objectType="7" accessType="const" dataType="0007" PDOmapping="no"/>
+     </Object>
+     <Object index="1020" name="CFM_VerifyConfiguration_REC" objectType="9" subNumber="5">
+      <SubObject subIndex="00" name="NumberOfEntries" objectType="7" accessType="const" dataType="0005" defaultValue="0x4" PDOmapping="no"/>
+      <SubObject subIndex="01" name="ConfDate_U32" objectType="7" accessType="rw" dataType="0007" defaultValue="0x0" PDOmapping="no"/>
+      <SubObject subIndex="02" name="ConfTime_U32" objectType="7" accessType="rw" dataType="0007" defaultValue="0x0" PDOmapping="no"/>
+      <SubObject subIndex="03" name="ConfId_U32" objectType="7" accessType="rw" dataType="0007" defaultValue="0x0" PDOmapping="no"/>
+      <SubObject subIndex="04" name="VerifyConfInvalid_BOOL" objectType="7" accessType="ro" dataType="0001" defaultValue="true" PDOmapping="no"/>
+     </Object>
+     <Object index="1030" name="NMT_InterfaceGroup_0h_REC" objectType="9" subNumber="10">
+      <SubObject subIndex="00" name="NumberOfEntries" objectType="7" accessType="const" dataType="0005" defaultValue="0x9" PDOmapping="no"/>
+      <SubObject subIndex="01" name="InterfaceIndex_U16" objectType="7" accessType="ro" dataType="0006" PDOmapping="no"/>
+      <SubObject subIndex="02" name="InterfaceDescription_VSTR" objectType="7" accessType="const" dataType="0009" PDOmapping="no"/>
+      <SubObject subIndex="03" name="InterfaceType_U8" objectType="7" accessType="const" dataType="0005" defaultValue="0x6" PDOmapping="no"/>
+      <SubObject subIndex="04" name="InterfaceMtu_U16" objectType="7" accessType="const" dataType="0006" defaultValue="1518" PDOmapping="no"/>
+      <!-- Hier muesste mindestens 1518 drin stehen siehe spezifikation von 1f98/8 -->
+      <SubObject subIndex="05" name="InterfacePhysAddress_OSTR" objectType="7" accessType="const" dataType="000A" PDOmapping="no"/>
+      <SubObject subIndex="06" name="InterfaceName_VSTR" objectType="7" accessType="ro" dataType="0009" PDOmapping="no"/>
+      <SubObject subIndex="07" name="InterfaceOperStatus_U8" objectType="7" accessType="ro" dataType="0005" PDOmapping="no"/>
+      <SubObject subIndex="08" name="InterfaceAdminState_U8" objectType="7" accessType="rw" dataType="0005" defaultValue="0x1" lowLimit="0x0" highLimit="0x1" PDOmapping="no"/>
+      <SubObject subIndex="09" name="Valid_BOOL" objectType="7" accessType="rw" dataType="0001" defaultValue="false" PDOmapping="no"/>
+     </Object>
+     <Object index="1300" name="SDO_SequLayerTimeout_U32" objectType="7" PDOmapping="no" accessType="rw" dataType="0007" defaultValue="0x7D0" objFlags="0004"/>
+     <Object index="1301" name="SDO_CmdLayerTimeout_U32" objectType="7" PDOmapping="no" accessType="rw" dataType="0007" defaultValue="0x3E8" objFlags="0004"/>
+     <Object index="1400" name="PDO_RxCommParam_00h_REC" objectType="9" subNumber="3">
+      <SubObject subIndex="00" name="NumberOfEntries" objectType="7" accessType="const" dataType="0005" defaultValue="0x02" PDOmapping="no"/>
+      <SubObject subIndex="01" name="NodeID_U8" objectType="7" accessType="rw" dataType="0005" defaultValue="0x0" lowLimit="0" highLimit="254" PDOmapping="no"/>
+      <SubObject subIndex="02" name="MappingVersion_U8" objectType="7" accessType="rw" dataType="0005" defaultValue="0x0" PDOmapping="no"/>
+     </Object>
+     <Object index="1600" name="PDO_RxMappParam_00h_AU64" objectType="8" subNumber="125">
+      <SubObject subIndex="00" name="NumberOfEntries" objectType="7" accessType="rw" dataType="0005" defaultValue="0" lowLimit="0" highLimit="124" PDOmapping="no"/>
+      <SubObject subIndex="01" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020000000012000" PDOmapping="no"/>
+      <SubObject subIndex="02" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020002000022000" PDOmapping="no"/>
+      <SubObject subIndex="03" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020004000032000" PDOmapping="no"/>
+      <SubObject subIndex="04" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020006000042000" PDOmapping="no"/>
+      <SubObject subIndex="05" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020008000052000" PDOmapping="no"/>
+      <SubObject subIndex="06" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002000A000062000" PDOmapping="no"/>
+      <SubObject subIndex="07" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002000C000072000" PDOmapping="no"/>
+      <SubObject subIndex="08" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002000E000082000" PDOmapping="no"/>
+      <SubObject subIndex="09" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020010000092000" PDOmapping="no"/>
+      <SubObject subIndex="0A" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200120000A2000" PDOmapping="no"/>
+      <SubObject subIndex="0B" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200140000B2000" PDOmapping="no"/>
+      <SubObject subIndex="0C" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200160000C2000" PDOmapping="no"/>
+      <SubObject subIndex="0D" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200180000D2000" PDOmapping="no"/>
+      <SubObject subIndex="0E" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002001A0000E2000" PDOmapping="no"/>
+      <SubObject subIndex="0F" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002001C0000F2000" PDOmapping="no"/>
+      <SubObject subIndex="10" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002001E000102000" PDOmapping="no"/>
+      <SubObject subIndex="11" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020020000112000" PDOmapping="no"/>
+      <SubObject subIndex="12" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020022000122000" PDOmapping="no"/>
+      <SubObject subIndex="13" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020024000132000" PDOmapping="no"/>
+      <SubObject subIndex="14" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020026000142000" PDOmapping="no"/>
+      <SubObject subIndex="15" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020028000152000" PDOmapping="no"/>
+      <SubObject subIndex="16" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002002A000162000" PDOmapping="no"/>
+      <SubObject subIndex="17" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002002C000172000" PDOmapping="no"/>
+      <SubObject subIndex="18" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002002E000182000" PDOmapping="no"/>
+      <SubObject subIndex="19" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020030000192000" PDOmapping="no"/>
+      <SubObject subIndex="1A" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200320001A2000" PDOmapping="no"/>
+      <SubObject subIndex="1B" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200340001B2000" PDOmapping="no"/>
+      <SubObject subIndex="1C" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200360001C2000" PDOmapping="no"/>
+      <SubObject subIndex="1D" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200380001D2000" PDOmapping="no"/>
+      <SubObject subIndex="1E" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002003A0001E2000" PDOmapping="no"/>
+      <SubObject subIndex="1F" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002003C0001F2000" PDOmapping="no"/>
+      <SubObject subIndex="20" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002003E000202000" PDOmapping="no"/>
+      <SubObject subIndex="21" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020040000212000" PDOmapping="no"/>
+      <SubObject subIndex="22" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020042000222000" PDOmapping="no"/>
+      <SubObject subIndex="23" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020044000232000" PDOmapping="no"/>
+      <SubObject subIndex="24" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020046000242000" PDOmapping="no"/>
+      <SubObject subIndex="25" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020048000252000" PDOmapping="no"/>
+      <SubObject subIndex="26" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002004A000262000" PDOmapping="no"/>
+      <SubObject subIndex="27" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002004C000272000" PDOmapping="no"/>
+      <SubObject subIndex="28" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002004E000282000" PDOmapping="no"/>
+      <SubObject subIndex="29" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020050000292000" PDOmapping="no"/>
+      <SubObject subIndex="2A" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200520002A2000" PDOmapping="no"/>
+      <SubObject subIndex="2B" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200540002B2000" PDOmapping="no"/>
+      <SubObject subIndex="2C" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200560002C2000" PDOmapping="no"/>
+      <SubObject subIndex="2D" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200580002D2000" PDOmapping="no"/>
+      <SubObject subIndex="2E" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002005A0002E2000" PDOmapping="no"/>
+      <SubObject subIndex="2F" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002005C0002F2000" PDOmapping="no"/>
+      <SubObject subIndex="30" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002005E000302000" PDOmapping="no"/>
+      <SubObject subIndex="31" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020060000312000" PDOmapping="no"/>
+      <SubObject subIndex="32" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020062000322000" PDOmapping="no"/>
+      <SubObject subIndex="33" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020064000332000" PDOmapping="no"/>
+      <SubObject subIndex="34" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020066000342000" PDOmapping="no"/>
+      <SubObject subIndex="35" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020068000352000" PDOmapping="no"/>
+      <SubObject subIndex="36" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002006A000362000" PDOmapping="no"/>
+      <SubObject subIndex="37" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002006C000372000" PDOmapping="no"/>
+      <SubObject subIndex="38" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002006E000382000" PDOmapping="no"/>
+      <SubObject subIndex="39" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020070000392000" PDOmapping="no"/>
+      <SubObject subIndex="3A" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200720003A2000" PDOmapping="no"/>
+      <SubObject subIndex="3B" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200740003B2000" PDOmapping="no"/>
+      <SubObject subIndex="3C" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200760003C2000" PDOmapping="no"/>
+      <SubObject subIndex="3D" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200780003D2000" PDOmapping="no"/>
+      <SubObject subIndex="3E" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002007A0003E2000" PDOmapping="no"/>
+      <SubObject subIndex="3F" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002007C0003F2000" PDOmapping="no"/>
+      <SubObject subIndex="40" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002007E000402000" PDOmapping="no"/>
+      <SubObject subIndex="41" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020080000412000" PDOmapping="no"/>
+      <SubObject subIndex="42" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020082000422000" PDOmapping="no"/>
+      <SubObject subIndex="43" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020084000432000" PDOmapping="no"/>
+      <SubObject subIndex="44" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020086000442000" PDOmapping="no"/>
+      <SubObject subIndex="45" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020088000452000" PDOmapping="no"/>
+      <SubObject subIndex="46" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002008A000462000" PDOmapping="no"/>
+      <SubObject subIndex="47" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002008C000472000" PDOmapping="no"/>
+      <SubObject subIndex="48" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002008E000482000" PDOmapping="no"/>
+      <SubObject subIndex="49" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020090000492000" PDOmapping="no"/>
+      <SubObject subIndex="4A" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200920004A2000" PDOmapping="no"/>
+      <SubObject subIndex="4B" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200940004B2000" PDOmapping="no"/>
+      <SubObject subIndex="4C" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200960004C2000" PDOmapping="no"/>
+      <SubObject subIndex="4D" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200980004D2000" PDOmapping="no"/>
+      <SubObject subIndex="4E" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002009A0004E2000" PDOmapping="no"/>
+      <SubObject subIndex="4F" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002009C0004F2000" PDOmapping="no"/>
+      <SubObject subIndex="50" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002009E000502000" PDOmapping="no"/>
+      <SubObject subIndex="51" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200A0000512000" PDOmapping="no"/>
+      <SubObject subIndex="52" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200A2000522000" PDOmapping="no"/>
+      <SubObject subIndex="53" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200A4000532000" PDOmapping="no"/>
+      <SubObject subIndex="54" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200A6000542000" PDOmapping="no"/>
+      <SubObject subIndex="55" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200A8000552000" PDOmapping="no"/>
+      <SubObject subIndex="56" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200AA000562000" PDOmapping="no"/>
+      <SubObject subIndex="57" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200AC000572000" PDOmapping="no"/>
+      <SubObject subIndex="58" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200AE000582000" PDOmapping="no"/>
+      <SubObject subIndex="59" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200B0000592000" PDOmapping="no"/>
+      <SubObject subIndex="5A" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200B20005A2000" PDOmapping="no"/>
+      <SubObject subIndex="5B" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200B40005B2000" PDOmapping="no"/>
+      <SubObject subIndex="5C" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200B60005C2000" PDOmapping="no"/>
+      <SubObject subIndex="5D" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200B80005D2000" PDOmapping="no"/>
+      <SubObject subIndex="5E" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200BA0005E2000" PDOmapping="no"/>
+      <SubObject subIndex="5F" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200BC0005F2000" PDOmapping="no"/>
+      <SubObject subIndex="60" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200BE000602000" PDOmapping="no"/>
+      <SubObject subIndex="61" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200C0000612000" PDOmapping="no"/>
+      <SubObject subIndex="62" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200C2000622000" PDOmapping="no"/>
+      <SubObject subIndex="63" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200C4000632000" PDOmapping="no"/>
+      <SubObject subIndex="64" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200C6000642000" PDOmapping="no"/>
+      <SubObject subIndex="65" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200C8000652000" PDOmapping="no"/>
+      <SubObject subIndex="66" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200CA000662000" PDOmapping="no"/>
+      <SubObject subIndex="67" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200CC000672000" PDOmapping="no"/>
+      <SubObject subIndex="68" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200CE000682000" PDOmapping="no"/>
+      <SubObject subIndex="69" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200D0000692000" PDOmapping="no"/>
+      <SubObject subIndex="6A" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200D20006A2000" PDOmapping="no"/>
+      <SubObject subIndex="6B" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200D40006B2000" PDOmapping="no"/>
+      <SubObject subIndex="6C" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200D60006C2000" PDOmapping="no"/>
+      <SubObject subIndex="6D" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200D80006D2000" PDOmapping="no"/>
+      <SubObject subIndex="6E" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200DA0006E2000" PDOmapping="no"/>
+      <SubObject subIndex="6F" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200DC0006F2000" PDOmapping="no"/>
+      <SubObject subIndex="70" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200DE000702000" PDOmapping="no"/>
+      <SubObject subIndex="71" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200E0000712000" PDOmapping="no"/>
+      <SubObject subIndex="72" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200E2000722000" PDOmapping="no"/>
+      <SubObject subIndex="73" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200E4000732000" PDOmapping="no"/>
+      <SubObject subIndex="74" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200E6000742000" PDOmapping="no"/>
+      <SubObject subIndex="75" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200E8000752000" PDOmapping="no"/>
+      <SubObject subIndex="76" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200EA000762000" PDOmapping="no"/>
+      <SubObject subIndex="77" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200EC000772000" PDOmapping="no"/>
+      <SubObject subIndex="78" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200EE000782000" PDOmapping="no"/>
+      <SubObject subIndex="79" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200F0000792000" PDOmapping="no"/>
+      <SubObject subIndex="7A" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200F20007A2000" PDOmapping="no"/>
+      <SubObject subIndex="7B" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200F40007B2000" PDOmapping="no"/>
+      <SubObject subIndex="7C" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200F60007C2000" PDOmapping="no"/>
+     </Object>
+     <Object index="1800" name="PDO_TxCommParam_00h_REC" objectType="9" subNumber="3">
+      <SubObject subIndex="00" name="NumberOfEntries" objectType="7" accessType="const" dataType="0005" defaultValue="0x02" PDOmapping="no"/>
+      <SubObject subIndex="01" name="NodeID_U8" objectType="7" accessType="rw" dataType="0005" defaultValue="0x0" lowLimit="0" highLimit="254" PDOmapping="no"/>
+      <SubObject subIndex="02" name="MappingVersion_U8" objectType="7" accessType="rw" dataType="0005" defaultValue="0x0" PDOmapping="no"/>
+     </Object>
+     <Object index="1A00" name="PDO_TxMappParam_00h_AU64" objectType="8" subNumber="125">
+      <SubObject subIndex="00" name="NumberOfEntries" objectType="7" accessType="rw" dataType="0005" defaultValue="0" lowLimit="0" highLimit="124" PDOmapping="no"/>
+      <SubObject subIndex="01" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020000000012001" PDOmapping="no"/>
+      <SubObject subIndex="02" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020002000022001" PDOmapping="no"/>
+      <SubObject subIndex="03" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020004000032001" PDOmapping="no"/>
+      <SubObject subIndex="04" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020006000042001" PDOmapping="no"/>
+      <SubObject subIndex="05" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020008000052001" PDOmapping="no"/>
+      <SubObject subIndex="06" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002000A000062001" PDOmapping="no"/>
+      <SubObject subIndex="07" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002000C000072001" PDOmapping="no"/>
+      <SubObject subIndex="08" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002000E000082001" PDOmapping="no"/>
+      <SubObject subIndex="09" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020010000092001" PDOmapping="no"/>
+      <SubObject subIndex="0A" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200120000A2001" PDOmapping="no"/>
+      <SubObject subIndex="0B" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200140000B2001" PDOmapping="no"/>
+      <SubObject subIndex="0C" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200160000C2001" PDOmapping="no"/>
+      <SubObject subIndex="0D" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200180000D2001" PDOmapping="no"/>
+      <SubObject subIndex="0E" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002001A0000E2001" PDOmapping="no"/>
+      <SubObject subIndex="0F" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002001C0000F2001" PDOmapping="no"/>
+      <SubObject subIndex="10" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002001E000102001" PDOmapping="no"/>
+      <SubObject subIndex="11" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020020000112001" PDOmapping="no"/>
+      <SubObject subIndex="12" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020022000122001" PDOmapping="no"/>
+      <SubObject subIndex="13" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020024000132001" PDOmapping="no"/>
+      <SubObject subIndex="14" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020026000142001" PDOmapping="no"/>
+      <SubObject subIndex="15" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020028000152001" PDOmapping="no"/>
+      <SubObject subIndex="16" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002002A000162001" PDOmapping="no"/>
+      <SubObject subIndex="17" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002002C000172001" PDOmapping="no"/>
+      <SubObject subIndex="18" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002002E000182001" PDOmapping="no"/>
+      <SubObject subIndex="19" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020030000192001" PDOmapping="no"/>
+      <SubObject subIndex="1A" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200320001A2001" PDOmapping="no"/>
+      <SubObject subIndex="1B" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200340001B2001" PDOmapping="no"/>
+      <SubObject subIndex="1C" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200360001C2001" PDOmapping="no"/>
+      <SubObject subIndex="1D" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200380001D2001" PDOmapping="no"/>
+      <SubObject subIndex="1E" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002003A0001E2001" PDOmapping="no"/>
+      <SubObject subIndex="1F" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002003C0001F2001" PDOmapping="no"/>
+      <SubObject subIndex="20" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002003E000202001" PDOmapping="no"/>
+      <SubObject subIndex="21" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020040000212001" PDOmapping="no"/>
+      <SubObject subIndex="22" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020042000222001" PDOmapping="no"/>
+      <SubObject subIndex="23" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020044000232001" PDOmapping="no"/>
+      <SubObject subIndex="24" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020046000242001" PDOmapping="no"/>
+      <SubObject subIndex="25" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020048000252001" PDOmapping="no"/>
+      <SubObject subIndex="26" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002004A000262001" PDOmapping="no"/>
+      <SubObject subIndex="27" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002004C000272001" PDOmapping="no"/>
+      <SubObject subIndex="28" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002004E000282001" PDOmapping="no"/>
+      <SubObject subIndex="29" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020050000292001" PDOmapping="no"/>
+      <SubObject subIndex="2A" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200520002A2001" PDOmapping="no"/>
+      <SubObject subIndex="2B" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200540002B2001" PDOmapping="no"/>
+      <SubObject subIndex="2C" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200560002C2001" PDOmapping="no"/>
+      <SubObject subIndex="2D" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200580002D2001" PDOmapping="no"/>
+      <SubObject subIndex="2E" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002005A0002E2001" PDOmapping="no"/>
+      <SubObject subIndex="2F" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002005C0002F2001" PDOmapping="no"/>
+      <SubObject subIndex="30" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002005E000302001" PDOmapping="no"/>
+      <SubObject subIndex="31" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020060000312001" PDOmapping="no"/>
+      <SubObject subIndex="32" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020062000322001" PDOmapping="no"/>
+      <SubObject subIndex="33" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020064000332001" PDOmapping="no"/>
+      <SubObject subIndex="34" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020066000342001" PDOmapping="no"/>
+      <SubObject subIndex="35" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020068000352001" PDOmapping="no"/>
+      <SubObject subIndex="36" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002006A000362001" PDOmapping="no"/>
+      <SubObject subIndex="37" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002006C000372001" PDOmapping="no"/>
+      <SubObject subIndex="38" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002006E000382001" PDOmapping="no"/>
+      <SubObject subIndex="39" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020070000392001" PDOmapping="no"/>
+      <SubObject subIndex="3A" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200720003A2001" PDOmapping="no"/>
+      <SubObject subIndex="3B" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200740003B2001" PDOmapping="no"/>
+      <SubObject subIndex="3C" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200760003C2001" PDOmapping="no"/>
+      <SubObject subIndex="3D" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200780003D2001" PDOmapping="no"/>
+      <SubObject subIndex="3E" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002007A0003E2001" PDOmapping="no"/>
+      <SubObject subIndex="3F" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002007C0003F2001" PDOmapping="no"/>
+      <SubObject subIndex="40" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002007E000402001" PDOmapping="no"/>
+      <SubObject subIndex="41" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020080000412001" PDOmapping="no"/>
+      <SubObject subIndex="42" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020082000422001" PDOmapping="no"/>
+      <SubObject subIndex="43" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020084000432001" PDOmapping="no"/>
+      <SubObject subIndex="44" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020086000442001" PDOmapping="no"/>
+      <SubObject subIndex="45" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020088000452001" PDOmapping="no"/>
+      <SubObject subIndex="46" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002008A000462001" PDOmapping="no"/>
+      <SubObject subIndex="47" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002008C000472001" PDOmapping="no"/>
+      <SubObject subIndex="48" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002008E000482001" PDOmapping="no"/>
+      <SubObject subIndex="49" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x0020090000492001" PDOmapping="no"/>
+      <SubObject subIndex="4A" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200920004A2001" PDOmapping="no"/>
+      <SubObject subIndex="4B" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200940004B2001" PDOmapping="no"/>
+      <SubObject subIndex="4C" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200960004C2001" PDOmapping="no"/>
+      <SubObject subIndex="4D" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200980004D2001" PDOmapping="no"/>
+      <SubObject subIndex="4E" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002009A0004E2001" PDOmapping="no"/>
+      <SubObject subIndex="4F" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002009C0004F2001" PDOmapping="no"/>
+      <SubObject subIndex="50" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x002009E000502001" PDOmapping="no"/>
+      <SubObject subIndex="51" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200A0000512001" PDOmapping="no"/>
+      <SubObject subIndex="52" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200A2000522001" PDOmapping="no"/>
+      <SubObject subIndex="53" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200A4000532001" PDOmapping="no"/>
+      <SubObject subIndex="54" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200A6000542001" PDOmapping="no"/>
+      <SubObject subIndex="55" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200A8000552001" PDOmapping="no"/>
+      <SubObject subIndex="56" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200AA000562001" PDOmapping="no"/>
+      <SubObject subIndex="57" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200AC000572001" PDOmapping="no"/>
+      <SubObject subIndex="58" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200AE000582001" PDOmapping="no"/>
+      <SubObject subIndex="59" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200B0000592001" PDOmapping="no"/>
+      <SubObject subIndex="5A" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200B20005A2001" PDOmapping="no"/>
+      <SubObject subIndex="5B" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200B40005B2001" PDOmapping="no"/>
+      <SubObject subIndex="5C" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200B60005C2001" PDOmapping="no"/>
+      <SubObject subIndex="5D" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200B80005D2001" PDOmapping="no"/>
+      <SubObject subIndex="5E" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200BA0005E2001" PDOmapping="no"/>
+      <SubObject subIndex="5F" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200BC0005F2001" PDOmapping="no"/>
+      <SubObject subIndex="60" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200BE000602001" PDOmapping="no"/>
+      <SubObject subIndex="61" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200C0000612001" PDOmapping="no"/>
+      <SubObject subIndex="62" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200C2000622001" PDOmapping="no"/>
+      <SubObject subIndex="63" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200C4000632001" PDOmapping="no"/>
+      <SubObject subIndex="64" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200C6000642001" PDOmapping="no"/>
+      <SubObject subIndex="65" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200C8000652001" PDOmapping="no"/>
+      <SubObject subIndex="66" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200CA000662001" PDOmapping="no"/>
+      <SubObject subIndex="67" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200CC000672001" PDOmapping="no"/>
+      <SubObject subIndex="68" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200CE000682001" PDOmapping="no"/>
+      <SubObject subIndex="69" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200D0000692001" PDOmapping="no"/>
+      <SubObject subIndex="6A" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200D20006A2001" PDOmapping="no"/>
+      <SubObject subIndex="6B" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200D40006B2001" PDOmapping="no"/>
+      <SubObject subIndex="6C" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200D60006C2001" PDOmapping="no"/>
+      <SubObject subIndex="6D" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200D80006D2001" PDOmapping="no"/>
+      <SubObject subIndex="6E" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200DA0006E2001" PDOmapping="no"/>
+      <SubObject subIndex="6F" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200DC0006F2001" PDOmapping="no"/>
+      <SubObject subIndex="70" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200DE000702001" PDOmapping="no"/>
+      <SubObject subIndex="71" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200E0000712001" PDOmapping="no"/>
+      <SubObject subIndex="72" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200E2000722001" PDOmapping="no"/>
+      <SubObject subIndex="73" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200E4000732001" PDOmapping="no"/>
+      <SubObject subIndex="74" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200E6000742001" PDOmapping="no"/>
+      <SubObject subIndex="75" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200E8000752001" PDOmapping="no"/>
+      <SubObject subIndex="76" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200EA000762001" PDOmapping="no"/>
+      <SubObject subIndex="77" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200EC000772001" PDOmapping="no"/>
+      <SubObject subIndex="78" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200EE000782001" PDOmapping="no"/>
+      <SubObject subIndex="79" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200F0000792001" PDOmapping="no"/>
+      <SubObject subIndex="7A" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200F20007A2001" PDOmapping="no"/>
+      <SubObject subIndex="7B" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200F40007B2001" PDOmapping="no"/>
+      <SubObject subIndex="7C" name="ObjectMapping" objectType="7" accessType="rw" dataType="001B" defaultValue="0x00200F60007C2001" PDOmapping="no"/>
+     </Object>
+     <Object index="1C0B" name="DLL_CNLossSoC_REC" objectType="9" subNumber="4">
+      <SubObject subIndex="00" name="NumberOfEntries" objectType="7" accessType="const" dataType="0005" defaultValue="0x3" PDOmapping="no"/>
+      <SubObject subIndex="01" name="CumulativeCnt_U32" objectType="7" accessType="rw" dataType="0007" defaultValue="0x0" PDOmapping="no"/>
+      <SubObject subIndex="02" name="ThresholdCnt_U32" objectType="7" accessType="ro" dataType="0007" defaultValue="0x0" PDOmapping="no"/>
+      <SubObject subIndex="03" name="Threshold_U32" objectType="7" accessType="rw" dataType="0007" defaultValue="0xF" PDOmapping="no"/>
+     </Object>
+     <Object index="1C0F" name="DLL_CNCRCError_REC" objectType="9" subNumber="4">
+      <SubObject subIndex="00" name="NumberOfEntries" objectType="7" accessType="const" dataType="0005" defaultValue="0x3" PDOmapping="no"/>
+      <SubObject subIndex="01" name="CumulativeCnt_U32" objectType="7" accessType="rw" dataType="0007" defaultValue="0x0" PDOmapping="no"/>
+      <SubObject subIndex="02" name="ThresholdCnt_U32" objectType="7" accessType="ro" dataType="0007" defaultValue="0x0" PDOmapping="no"/>
+      <SubObject subIndex="03" name="Threshold_U32" objectType="7" accessType="rw" dataType="0007" defaultValue="0xF" PDOmapping="no"/>
+     </Object>
+     <Object index="1C14" name="DLL_CNLossOfSocTolerance_U32" objectType="7" PDOmapping="no" accessType="rw" dataType="0007" defaultValue="0x5F5E100"/>
+     <Object index="1E40" name="NWL_IpAddrTable_0h_REC" objectType="9" subNumber="6">
+      <SubObject subIndex="00" name="NumberOfEntries" objectType="7" accessType="const" dataType="0005" defaultValue="0x5" PDOmapping="no"/>
+      <SubObject subIndex="01" name="IfIndex_U16" objectType="7" accessType="ro" dataType="0006" PDOmapping="no"/>
+      <SubObject subIndex="02" name="Addr_IPAD" objectType="7" accessType="rw" dataType="0402" defaultValue="0xC0A86401" lowLimit="0xC0A86401" highLimit="0xC0A864EF" PDOmapping="no"/>
+      <SubObject subIndex="03" name="NetMask_IPAD" objectType="7" accessType="ro" dataType="0402" PDOmapping="no"/>
+      <SubObject subIndex="04" name="ReasmMaxSize_U16" objectType="7" accessType="ro" dataType="0006" PDOmapping="no"/>
+      <SubObject subIndex="05" name="DefaultGateway_IPAD" objectType="7" accessType="rw" dataType="0402" defaultValue="0xC0A864F0" lowLimit="0xC0A86401" highLimit="0xC0A864FE" PDOmapping="no"/>
+     </Object>
+     <Object index="1E4A" name="NWL_IpGroup_REC" objectType="9" subNumber="4">
+      <SubObject subIndex="00" name="NumberOfEntries" objectType="7" accessType="const" dataType="0005" defaultValue="0x3" PDOmapping="no"/>
+      <SubObject subIndex="01" name="Forwarding_BOOL" objectType="7" accessType="ro" dataType="0001" defaultValue="false" PDOmapping="no"/>
+      <SubObject subIndex="02" name="DefaultTTL_U16" objectType="7" accessType="rw" dataType="0006" defaultValue="0x40" PDOmapping="no"/>
+      <SubObject subIndex="03" name="ForwardDatagrams_U32" objectType="7" accessType="ro" dataType="0007" PDOmapping="no"/>
+     </Object>
+     <Object index="1F82" name="NMT_FeatureFlags_U32" objectType="7" PDOmapping="no" accessType="const" dataType="0007" defaultValue="0x00000047"/>
+     <Object index="1F83" name="NMT_EPLVersion_U8" objectType="7" PDOmapping="no" accessType="const" dataType="0005" defaultValue="0x20"/>
+     <Object index="1F8C" name="NMT_CurrNMTState_U8" objectType="7" PDOmapping="optional" accessType="ro" dataType="0005" defaultValue="0x1C" objFlags="0007"/>
+     <Object index="1F93" name="NMT_EPLNodeID_REC" objectType="9" subNumber="3">
+      <SubObject subIndex="00" name="NumberOfEntries" objectType="7" accessType="const" dataType="0005" defaultValue="0x2" PDOmapping="no"/>
+      <SubObject subIndex="01" name="NodeID_U8" objectType="7" accessType="ro" dataType="0005" defaultValue="0x1" PDOmapping="no"/>
+      <SubObject subIndex="02" name="NodeIDByHW_BOOL" objectType="7" accessType="ro" dataType="0001" PDOmapping="no"/>
+     </Object>
+     <Object index="1F98" name="NMT_CycleTiming_REC" objectType="9" subNumber="10">
+      <SubObject subIndex="00" name="NumberOfEntries" objectType="7" accessType="const" dataType="0005" defaultValue="0x9" PDOmapping="no"/>
+      <SubObject subIndex="01" name="IsochrTxMaxPayload_U16" objectType="7" accessType="const" dataType="0006" defaultValue="496" PDOmapping="no"/>
+      <SubObject subIndex="02" name="IsochrRxMaxPayload_U16" objectType="7" accessType="const" dataType="0006" defaultValue="496" PDOmapping="no"/>
+      <SubObject subIndex="03" name="PResMaxLatency_U32" objectType="7" accessType="const" dataType="0007" defaultValue="1000" PDOmapping="no"/>
+      <SubObject subIndex="04" name="PReqActPayloadLimit_U16" objectType="7" accessType="rw" dataType="0006" defaultValue="0x24" lowLimit="0x24" highLimit="496" PDOmapping="no"/>
+      <SubObject subIndex="05" name="PResActPayloadLimit_U16" objectType="7" accessType="rw" dataType="0006" defaultValue="0x24" lowLimit="0x24" highLimit="496" PDOmapping="no"/>
+      <SubObject subIndex="06" name="ASndMaxLatency_U32" objectType="7" accessType="const" dataType="0007" defaultValue="1000" PDOmapping="no"/>
+      <SubObject subIndex="07" name="MultiplCycleCnt_U8" objectType="7" accessType="rw" dataType="0005" defaultValue="0x0" PDOmapping="no"/>
+      <SubObject subIndex="08" name="AsyncMTU_U16" objectType="7" accessType="rw" dataType="0006" defaultValue="0x12C" lowLimit="0x12C" highLimit="0x5dc" PDOmapping="no" objFlags="0004"/>
+      <!-- defaultValue="0x5dc" -->
+      <SubObject subIndex="09" name="Prescaler_U16" objectType="7" accessType="rw" dataType="0006" defaultValue="0x2" lowLimit="0" highLimit="1000" PDOmapping="no"/>
+     </Object>
+     <Object index="1F99" name="NMT_CNBasicEthernetTimeout_U32" objectType="7" PDOmapping="no" accessType="rw" dataType="0007" defaultValue="0x4C4B40" objFlags="0004"/>
+     <Object index="1F9A" name="NMT_HostName_VSTR" objectType="7" PDOmapping="no" accessType="rw" dataType="0009"/>
+     <Object index="1F9E" name="NMT_ResetCmd_U8" objectType="7" PDOmapping="no" accessType="rw" dataType="0005" defaultValue="0xFF" lowLimit="0x28"/>
+     <Object index="2000" name="Out-Data" objectType="8" subNumber="5">
+      <SubObject subIndex="00" name="Number of Entries" objectType="7" accessType="ro" dataType="0005" defaultValue="5" PDOmapping="no"/>
+<SubObject subIndex="01" name="Ventil M 1V 1-4" objectType="7" uniqueIDRef="ID_Valve_Mod1" PDOmapping="RPDO"/>
+<SubObject subIndex="02" name="Ventil M 2V 5-8" objectType="7" uniqueIDRef="ID_Valve_Mod2" PDOmapping="RPDO"/>
+<SubObject subIndex="03" name="Ventil M 3V 9-12" objectType="7" uniqueIDRef="ID_Valve_Mod3" PDOmapping="RPDO"/>
+<SubObject subIndex="04" name="Ventil M 4V 13-15" objectType="7" uniqueIDRef="ID_Valve_Mod4" PDOmapping="RPDO"/>
+     </Object>
+     <Object index="2001" name="In-Data" objectType="8" subNumber="3">
+      <SubObject subIndex="00" name="Number of Entries" objectType="7" accessType="ro" dataType="0005" defaultValue="3" PDOmapping="no"/>
+<SubObject subIndex="01" name="Diagnostic Data 1" objectType="7" uniqueIDRef="ID_Diag_Part1_P" PDOmapping="TPDO"/>
+<SubObject subIndex="02" name="Diagnostic Data 2" objectType="7"  uniqueIDRef="ID_Diag_Part2_P" PDOmapping="TPDO"/>
+     </Object>
+     <Object index="2010" name="Write Parameter Busmodul" objectType="8" subNumber="2">
+      <SubObject subIndex="00" name="Number of Entries" objectType="7" accessType="ro" dataType="0005" defaultValue="0x1" PDOmapping="no"/>
+      <SubObject subIndex="01" name="Parameter Byte" objectType="7" accessType="rw" dataType="0005" PDOmapping="no"/>
+     </Object>
+     <Object index="2011" name="Read Parameter Busmodul" objectType="8" subNumber="1">
+      <SubObject subIndex="00" name="Number of Entries" objectType="7" accessType="ro" dataType="0005" defaultValue="0x0" PDOmapping="no"/>
+     </Object>
+     <Object index="2012" name="Diagnose Busmodul" objectType="8" subNumber="3">
+      <SubObject subIndex="00" name="Number of Entries" objectType="7" accessType="ro" dataType="0005" defaultValue="0x02" PDOmapping="no"/>
+      <SubObject subIndex="01" name="Diagnose Byte 1" objectType="7" accessType="ro" dataType="0005" PDOmapping="no"/>
+      <SubObject subIndex="02" name="Diagnose Byte 2" objectType="7" accessType="ro" dataType="0005" PDOmapping="no"/>
+     </Object>
+    </ObjectList>
+   </ApplicationLayers>
+   <TransportLayers/>
+   <NetworkManagement>
+    <GeneralFeatures CFMConfigManager="false" DLLErrBadPhysMode="false" DLLErrMacBuffer="false" NMTCycleTimeGranularity="1" NMTBootTimeNotActive="1000000" DLLFeatureCN="true" DLLFeatureMN="false" NMTCycleTimeMax="50000" NMTCycleTimeMin="1000" NMTEmergencyQueueSize="0" NMTErrorEntries="2" NMTMaxCNNodeID="239" NMTMaxCNNumber="239" NMTMaxHeartbeats="254" NMTNodeIDByHW="true" NMTProductCode="412018226" NMTRevisionNo="00000003" NMTPublishActiveNodes="false" NMTPublishConfigNodes="false" NMTPublishEmergencyNew="false" NMTPublishNodeState="false" NMTPublishOperational="false" NMTPublishPreOp1="false" NMTPublishPreOp2="false" NMTPublishReadyToOp="false" NMTPublishStopped="false" NMTPublishTime="false" NWLForward="false" NWLICMPSupport="false" NWLIPSupport="true" PDOGranularity="8" PDOMaxDescrMem="4294967295" PDORPDOChannelObjects="254" PDORPDOChannels="1" PDORPDOCycleDataLim="4294967295" PDORPDOOverallObjects="124" PDOSelfReceipt="false" PDOTPDOChannelObjects="254" PDOTPDOCycleDataLim="4294967295" PDOTPDOOverallObjects="124" PHYExtEPLPorts="1" SDOMaxConnections="1" PHYHubIntegrated="true" RT1RT1SecuritySupport="false" RT1RT1Support="false" RT2RT2Support="false" SDOClient="false" SDOCmdFileRead="false" SDOCmdFileWrite="false" SDOCmdLinkName="false" SDOCmdReadAllByIndex="false" SDOCmdReadByName="false" SDOCmdReadMultParam="false" SDOCmdWriteAllByIndex="false" SDOCmdWriteByName="false" SDOCmdWriteMultParam="false" SDOMaxParallelConnections="1" SDOSeqLayerTxHistorySize="5" SDOServer="true"/>
+    <CNFeatures DLLCNFeatureMultiplex="false" NMTCNSoC2PReq="10000"/>
+    <Diagnostic>
+      </Diagnostic>
+   </NetworkManagement>
+  </ProfileBody>
+ </ISO15745Profile>
+</ISO15745ProfileContainer>

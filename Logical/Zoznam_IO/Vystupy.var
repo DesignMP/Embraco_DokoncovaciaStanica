@@ -1,0 +1,57 @@
+VAR
+	doHydraulika_ChodCerpadla : BOOL;
+	doBZ1_ZamkniZamok : BOOL;
+	doBZ2_ZamkniZamok : BOOL;
+	doBZ3_ZamkniZamok : BOOL;
+	doBZ4_ZamkniZamok : BOOL;
+	doBZ5_ZamkniZamok : BOOL;
+	doBZ6_ZamkniZamok : BOOL;
+	doValcovanie_DavkaOleja : BOOL;
+	doValc2_DavkaOleja : BOOL;
+	doValc2_ZdvihPritlakuHORE : BOOL;
+	doValc2_ZostupPritlakuDOLE : BOOL;
+	doValc2_BrzdaOtacNastroja : BOOL;
+	doMajak_CerveneSvetlo : BOOL;
+	doMajak_ZlteSvetlo : BOOL;
+	doMajak_ZeleneSvetlo : BOOL;
+	doMajak_Hukacka : BOOL;
+	doKontrolkaPORUCHA : BOOL;
+	doStol_ResetPoruchy : BOOL;
+	doZelenaLED_Tlacitko_rotor_OK : BOOL;
+	doCervenaLED_Tlacitko_rotor_NG : BOOL;
+	doLEDosvetlenie_ZeleneSvetlo : BOOL;
+	doLEDosvetlenie_CerveneSvetlo : BOOL;
+	doLEDosvetlenie_ModreSvetlo : BOOL;
+	doLEDosvetlenie_BieleSvetlo : BOOL;
+	doZatvorenieOdvzdHydrauliky : BOOL;
+	doStol_OtacajVPRED : BOOL;
+	doStol_OtacajVZAD : BOOL;
+	doStol_ODBRZDENIE : BOOL;
+	doRazenie_ZdvihRotora : BOOL; (*Hydraulika*)
+	doRazenie_ZostupRotora : BOOL; (*Hydraulika*)
+END_VAR
+(***********Ventilový terminál****************************)
+VAR
+	doOddelovac_PrepniPozNavazania : BOOL; (*YV-1.1*)
+	doOddelovac_PrepniPozVyvazania : BOOL; (*YV-1.2*)
+	doVstupManipul_ZDVIH : BOOL; (*YV-2.1*)
+	doVstupManipul_ZOSTUP : BOOL; (*YV-2.2*)
+	doVstupManipul_GriperZATVOR : BOOL; (*YV-3.1*)
+	doVstupManipul_GriperOTVOR : BOOL; (*YV-3.2*)
+	doVystupManipul_ZDVIH : BOOL; (*YV-4.1*)
+	doVystupManipul_ZOSTUP : BOOL; (*YV-4.2*)
+	doVystupManipul_GriperZATVOR : BOOL; (*YV-5.1*)
+	doVystupManipul_GriperOTVOR : BOOL; (*YV-5.2*)
+	doVystDopr_OdsuvacVYSUN : BOOL; (*YV-6.1*)
+	doVystDopr_OdsuvacZASUN : BOOL; (*YV-6.2*)
+	doValcovanie_ZDVIH_Rotora : BOOL; (*YV-10.1*)
+	doValcovanie_ZOSTUP_Rotora : BOOL; (*YV-10.2*)
+	doValcovanie_GriperOTVOR : BOOL; (*YV-11.1*)
+	doValcovanie_GriperZATVOR : BOOL; (*YV-11.2*)
+	doMeranie_ZDVIH : BOOL; (*YV-12.1*)
+	doMeranie_ZOSTUP : BOOL; (*YV-12.2*)
+	doMeranie_Osciloskop_START : BOOL;
+	doMeranie_Osciloskop_STOP : BOOL;
+	doMeranie_Osciloskop_Frekvencia : BOOL;
+	doVstupDopr_VysunZdvihRotora : BOOL; (*YV-13.1*)
+END_VAR

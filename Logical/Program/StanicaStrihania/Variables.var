@@ -1,0 +1,24 @@
+VAR
+	SC_OvlZdvihu : SequenceControlTyp;
+	Rotor_ZDVIHNI : BOOL;
+	Rotor_POLOZ : BOOL;
+	RR_Rotor_ZDVIHNI : BOOL;
+	RR_Rotor_POLOZ : BOOL;
+	Rotor_POLOZ_CasOFF : BOOL;
+	SC_OvlGripraNaliatku : SequenceControlTyp;
+	GriperNaliatku_ZATVOR : BOOL;
+	GriperNaliatku_OTVOR : BOOL;
+	GriperNaliatkuZATVORENY : BOOL;
+	SC_OvlGripraStriznika : SequenceControlTyp;
+	GriperStriznika_ZATVOR : BOOL;
+	GriperStriznika_OTVOR : BOOL;
+	GriperStriznika_ZATVORENY : BOOL;
+	SC_OvlOdklonenia : SequenceControlTyp;
+	OdklonGriprov_ODOBERANIE : BOOL;
+	OdklonGriprov_ZAHODENIE : BOOL;
+	PrazdnaPozicia : BOOL;
+	ChybaVystrihnutia : BOOL;
+	PocetOtvoreniGriprov : USINT;
+	T_otvorenieCentrovania : TON;
+	PAUZA : BOOL;
+END_VAR

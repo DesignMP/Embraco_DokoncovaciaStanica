@@ -1,0 +1,5 @@
+VAR
+	SC_OvlZdvihu : SequenceControlTyp;
+	ZdvihniRotor : BOOL;
+	PolozRotor : BOOL;
+END_VAR

@@ -1,0 +1,16 @@
+VAR
+	siCS_KanalA : BOOL;
+	siCS_KanalB : BOOL;
+	siServisneDvere1_KanalA : BOOL;
+	siServisneDvere1_KanalB : BOOL;
+	siServisneDvere2_KanalA : BOOL;
+	siServisneDvere2_KanalB : BOOL;
+	siServisneDvere3_KanalA : BOOL;
+	siServisneDvere3_KanalB : BOOL;
+	siServisneDvere4_KanalA : BOOL;
+	siServisneDvere4_KanalB : BOOL;
+	siServisneDvere5_KanalA : BOOL;
+	siServisneDvere5_KanalB : BOOL;
+	siServisneDvere6_KanalA : BOOL;
+	siServisneDvere6_KanalB : BOOL;
+END_VAR
